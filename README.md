@@ -8,7 +8,7 @@ A graduate course covering critical computational skills for working with biolog
 
 **Time/Location:** Wednesday and Friday, 1:10-2:30 PM in 334 Bessey Hall (plus Monday 1-2:30 for additional lab hours)
 
-**Web View:** 
+**Web View:** [https://eeob-biodata.github.io/BCB546X-Fall2017](https://eeob-biodata.github.io/BCB546X-Fall2017/)
 
 ## Reading Material
 
