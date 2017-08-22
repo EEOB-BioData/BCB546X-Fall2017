@@ -14,14 +14,14 @@ A graduate course covering critical computational skills for working with biolog
 
 * [*Bioinformatics Data Skills*](http://shop.oreilly.com/product/0636920030157.do) by [Vince Buffalo](http://www.vincebuffalo.com/)
 
+## Software Requirements
+
+Please see the [**installation guide**](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
+
 ## Course Schedule
 
 The topics covered in this course can all be found here: [Fall 2017 Schedule](https://docs.google.com/spreadsheets/d/10DN_Qsf7QJaBDkEfhGxnSG1fvaDosrXjAKAFe_PsV3o/edit?usp=sharing).
 Be sure to check the schedule for updates.
-
-### Software Requirements
-
-Please see the [**installation guide**](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
 
 ### Week 1
 
