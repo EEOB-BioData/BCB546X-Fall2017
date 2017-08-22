@@ -16,7 +16,7 @@ A graduate course covering critical computational skills for working with biolog
 
 ## Software Requirements
 
-Please see the [**installation guide**](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
+Please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
 
 ## Course Schedule
 
