@@ -21,11 +21,12 @@ Be sure to check the schedule for updates.
 
 ### Software Requirements
 
-Please see the [Installation Guide] for information and updates about required software.
+Please see the [**installation guide**](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
 
 ### Week 1
 
-* Introduction to Unix
+* Introduction to Unix 
+    * Windows users, please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/) for instructions on installing a command-line tool.
 
 
 ---
