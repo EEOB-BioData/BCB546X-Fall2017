@@ -19,6 +19,14 @@ A graduate course covering critical computational skills for working with biolog
 The topics covered in this course can all be found here: [Fall 2017 Schedule](https://docs.google.com/spreadsheets/d/10DN_Qsf7QJaBDkEfhGxnSG1fvaDosrXjAKAFe_PsV3o/edit?usp=sharing).
 Be sure to check the schedule for updates.
 
+### Software Requirements
+
+Please see the [Installation Guide] for information and updates about required software.
+
+### Week 1
+
+* Introduction to Unix
+
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
