@@ -31,6 +31,7 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 
 * Introduction to Unix 
     * Windows users, please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/) for instructions on installing a command-line tool.
+    * Material for this week can be found in the [Week 1](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Week_01) folder.
 
 
 ---
