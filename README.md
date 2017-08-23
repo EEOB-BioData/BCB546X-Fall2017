@@ -23,6 +23,10 @@ Please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2
 The topics covered in this course can all be found here: [Fall 2017 Schedule](https://docs.google.com/spreadsheets/d/10DN_Qsf7QJaBDkEfhGxnSG1fvaDosrXjAKAFe_PsV3o/edit?usp=sharing).
 Be sure to check the schedule for updates.
 
+## Syllabus
+
+A copy of the course syllabus can be found at the following link: [Fall 2017 Syllabus](https://docs.google.com/document/d/1DwH7xXA8Nh2uYOIFfleOhXf8JLi4M22HIbdmxpP13Jw/edit?usp=sharing). A pdf is also available in this GitHub repository.
+
 ### Week 1
 
 * Introduction to Unix 
