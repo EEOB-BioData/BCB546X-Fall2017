@@ -106,7 +106,7 @@ Notes for the _first_ slide!
 * Standard Out and Standard Error
 * Creating and navigating through directories
 * Using wildcards
-* Revisiting the Pipe and behold, `grep`!
+* The Pipe and behold, `grep`!
 * Redirecting streams in pipes
 * Managing processes
 * Checking process exit status
@@ -240,9 +240,13 @@ $ mkdir data/seqs scripts analysis
 
 --
 
-* Let's use our GUI to create a folder in `zmays-snps` with a space in its name:
+* Let's create a folder in `zmays-snps` with a space in its name: `raw sequences`
 
-`raw sequences`
+--
+
+```
+mkdir raw\ sequences
+```
 
 --
 
@@ -353,7 +357,7 @@ $ rm -rf tmp-data/aligned-reads *
 
 ---
 
-##Revisiting the Pipe
+##The Pipe
 
 --
 
@@ -376,6 +380,14 @@ $ cat file1 file2 | grep "AGGATA" | wc
 * Let's see what this command can do using an example from Buffalo Chapter 3...
 
 --
+
+*  First, we need to clone supplementary material for the book into hpc-class so `cd` to the top of your directory and type:
+
+```
+$ git clone https://github.com/vsbuffalo/bds-files
+```
+
+---
 
 Suppose we're working with a program that throws an error telling us that our fasta input file has non-nucleotide characters.  Let's use grep in a pipe to inspect our input file:
 
@@ -417,7 +429,7 @@ $ program1 input.txt 2> program1.stderr | \
 --
 
 ```
-$ program1 2>&1 | grep "error"
+$ program1 input.txt 2>&1 | grep "error"
 ```
 
 ---
@@ -629,7 +641,7 @@ $ echo "There are $(grep -cv '^>' tb1.fasta) lines of sequence in my FASTA file.
 
 --
 
-* Now `cd` into your `Week_3_play` folder and try:
+* Now `cd` into your `in_class` folder and try:
 
 --
 
