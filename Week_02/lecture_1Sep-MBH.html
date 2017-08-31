@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="hpc, research it, servers, clusters, storage" />
+    <meta name="description" content="Lecture on HPC resources and methods." />
+    <title>BCB 546X -- 11 Apr 2017</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+      .coolBorder {
+        border: 2px solid purple;
+        border-radius: 20px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# An Introduction to High Performance Computing
+
+???
+
+Notes for the _first_ slide!
+
+---
+
+# What is High Performance Computing?
+
+--
+
+* Using more than your laptop or desktop (or high powered workstation)
+
+--
+
+* Designed with various hardware architectures that fit different problems
+
+--
+
+* Allows you to run analyses not possible with a typical computer
+
+--
+
+* High memory, high core count, bigdata
+
+---
+
+# Performance Monitoring
+
+* htop (or top)
+* iostat
+* iftop
+
+<div style="text-align:center"><img src="images/htop.png" alt="htop screenshot" style="width: 700px;"/></div>
+
+
+There are other tools, but these will get you the basic info you need and are installed on most systems by default
+---
+
+# Terminology
+
+* HPC terminology can be confusing, sometimes the same words have different contextual meaning (e.g. threads)
+
+## Terms
+
+* Nodes: compute node, head node
+
+--
+
+* Processors (a cpu chip)
+
+--
+
+* Cores (physical cpus embedded on a single chip)
+
+--
+
+* Threads: hyper-threading (software 'trick' to let two processes share a core)
+
+--
+
+* Scheduler: Allocates access to resources to users (ISU uses Slurm) 
+
+---
+
+#Cluster Diagram
+
+<div style="text-align:center"><img src="images/cluster.png" alt="cluster diagram" style="width: 700px;"/></div>
+
+---
+
+# Compute Resources at ISU
+
+## Clusters
+
+* [hpc-class](http://www.hpc.iastate.edu/guides/classroom-hpc-cluster)
+    * For classes, not research
+    * 48 nodes
+        * 2.0GHz, 16 cores, 64GB RAM
+--
+		        
+* [condo2017](http://www.hpc.iastate.edu/guides/condo2017)
+    * Primarily for sponsored research
+    * 180 Nodes
+        * 2.6GHz, 16 cores, 128GB RAM
+    * New free-tier - 48 nodes
+        * 2.0GHz, 12 cores, 64GB RAM
+
+---
+
+# Compute Resources at ISU
+
+## [Custom hardware](http://rit.las.iastate.edu/hardware)
+* BioCrunch (for multithreaded shared memory programs)
+    * 2.4GHz, 80 threads, 768GB of RAM
+--
+* BigRAM (for large memory needs like de-novo assembly)
+    * 2.6GHz, 48 threads, 1.5TB of RAM
+--
+* Speedy (for single threaded programs, like R)
+    * 3.4GHz, 24 threads, 256GB of RAM
+--
+* Speedy2 (for single threaded programs, like R)
+    * 3.2GHz, 32 threads, 256GB of RAM
+--
+* LASWIN01 (for Windows only software)
+    * 2.6GHz, 24 threads, 64GB of RAM
+--
+* Legion (for massively parallel applications)
+    * 4 nodes
+    * 1.3GHz, 272 threads, 386GB of RAM (each)
+
+---
+#Compute Resources
+
+## [Xsede](https://www.xsede.org/)
+* ISU researchers have access to the national supercomputer centers (e.g. TACC, PSC) via Xsede
+* For problems that need to scale larger than our on-campus resources
+* Contact campus champions: Jim Coyle or Andrew Severin
+
+## Cloud (AWS, Azure, etc.)
+* Tempting introductory rates
+* Be cautious of putting in a credit card (charges can accumulate quickly)
+* Consider data transfer times and speed
+* Consult with IT before purchasing - they have special negotiated rates
+
+---
+
+
+# Software
+
+## Modules:
+
+* Modules are used to allow multiple people to use the same software with consistent, reproducible results
+
+--
+
+* Modules keep your environment clean and free of conflicts (e.g. python2/3 or Java7/8)
+
+--
+
+* Think of modules as a software library. You need to check out the software before you can use it.
+
+--
+
+* Modules can be searched:
+
+--
+
+```
+$ module avail
+-------------------- /opt/rit/modules ---------------------------------
+abyss/1.5.2              freesurfer/5.3.0         lib/htslib/1.2.1       
+abyss/1.9.0              gapcloser/1.12-r6        lib/htslib/1.3
+afni/17.0.10             gapfiller/1-10           lib/htslib/1.3.2
+albert/20170105          gatk/3.4-46              lib/ICE/1.0.9
+...
+```
+
+---
+
+# Software
+
+## Modules
+
+* To use a module:
+
+--
+
+```
+$ module load <name of software>
+```
+
+--
+
+* To delete a module:
+
+--
+
+```
+$ module unload <name of software>
+```
+
+--
+
+* Default behavior is to load the latest version if not specified
+
+--
+
+* Use 'module purge' to clear your environment before loading something different
+
+---
+
+# Storage
+
+--
+
+## Code
+
+* Git (github, bitbucket, gitlab, etc.)
+
+--
+
+## Datasets
+
+--
+
+* Storage on the clusters and servers should be treated as temporary
+
+--
+
+* Become familiar with the [disk architecture on each machine](https://researchit.las.iastate.edu/getting-best-io-performance-your-computational-jobs)
+
+--
+
+* Keep backups
+
+---
+
+# Job Scheduler
+
+--
+
+* Scheduler assigns jobs from the queue to the compute nodes
+
+--
+
+* ISU uses [SLURM](https://researchit.las.iastate.edu/slurm-basics)
+
+--
+
+* Think about the scheduler like a hotel reservation - you're charged for the room whether you use it or not, and if you ask for an especially long or large reservation, the room may not be available when you want it.
+
+--
+
+* Basic info required: how many nodes, how long
+
+--
+
+* [Script writer](http://www.hpc.iastate.edu/guides/condo2017/slurm-job-script-writer) can get you started
+
+---
+
+# Slurm Script Cheatsheat:
+
+--
+
+<div style="text-align:center"><img src="images/slurm_script.png" alt="Slurm Script Cheatsheat" style="width: 750px;"/></div>
+
+---
+
+## Sample SLURM script (mysbatch.sh)
+
+--
+
+```
+#!/bin/bash
+#SBATCH --time=1:00:00   # walltime
+#SBATCH --nodes=2   # number of nodes in this job
+#SBATCH --ntasks-per-node=16   # total number of processor cores in this job
+#SBATCH --output=myout_%J.log
+#SBATCH --error=myerr_%J.err
+module load R
+Rscript MyThing.R
+```
+
+--
+
+Then submit:
+
+```
+$ sbatch mysbatch.sh
+```
+
+---
+
+#Slurm Job Management Cheatsheat:
+
+--
+
+<div style="text-align:center"><img src="images/slurm_job.png" alt="Slurm Job Cheatsheat" style="width: 750px;"/></div>
+
+---
+
+# Common stumbling blocks
+
+--
+
+* Over or under using resources
+
+--
+
+* Not taking advantage of the right machine for the problem
+
+--
+
+* Moving data through slow links
+
+--
+
+* Trying to scale up programs that weren't designed for large datasets
+
+---
+
+# Support
+
+* [Research IT](http://rit.las.iastate.edu)
+    * Build software, run custom hardware, consult on performance improvements, etc.
+    * Collaboration between LAS, CALS, IT, etc. http://rit.las.iastate.edu/people
+    * researchit@iastate.edu
+    * IRC (chat): &#35;bitcom on freenode
+* [ISU IT HPC Team](http://hpc.iastate.edu)
+    * Cluster Support team
+    * hpc-help@iastate.edu
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'tex',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>
