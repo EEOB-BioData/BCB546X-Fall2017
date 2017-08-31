@@ -27,12 +27,16 @@ Be sure to check the schedule for updates.
 
 A copy of the course syllabus can be found at the following link: [Fall 2017 Syllabus](https://docs.google.com/document/d/1DwH7xXA8Nh2uYOIFfleOhXf8JLi4M22HIbdmxpP13Jw/edit?usp=sharing). A pdf is also available in this GitHub repository.
 
-### Week 1
+### [Week 1](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Week_01)
 
-* Introduction to Unix 
+* Lecture 1: Introduction to Unix [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/Week1_Lecture1.pdf)]
     * Windows users, please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/) for instructions on installing a command-line tool.
     * Material for this week can be found in the [Week 1](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Week_01) folder.
+* Lecture 2: Delving more deeply into UNIX [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html)]
 
+### Week 2
+
+* Lecture 1: Delving even more deeply into Unix [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html#52)]
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
