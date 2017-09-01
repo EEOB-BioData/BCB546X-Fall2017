@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=3:00:00
-#SBATCH --mail-user=mhufford@iastate.edu
+#SBATCH --mail-user=<netID>@iastate.edu
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
 #SBATCH --error=blastn1.%J.err
