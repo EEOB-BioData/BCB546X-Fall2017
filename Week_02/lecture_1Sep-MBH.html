@@ -120,6 +120,62 @@ Notes for the _first_ slide!
 
 ---
 
+# Before we launch in to ISU-HPC...
+
+--
+
+* Are you tired of typing:
+
+```
+$ ssh <netID>@hpc-class.its.iastate.edu
+```
+????
+--
+
+* `cd` into your root directory and try: `ls -a`
+
+--
+
+* You should see a hidden folder named `.ssh`
+
+--
+
+* `cd` into `.ssh` and create a file named "config":
+
+```
+$ touch config
+```
+---
+# Before we launch in to ISU-HPC...
+
+--
+
+* Now open the file `config`, add the following contents, and save the file:
+
+```
+Host hpc_class
+HostName hpc-class.its.iastate.edu
+User <net ID>
+```
+--
+
+* Now try it out!
+
+```
+$ ssh hpc_class
+```
+--
+
+* And once you're in hpc-class, a few new tricks:
+
+```
+$ hostname
+
+$ whoami
+```
+
+---
+
 # Performance Monitoring
 
 * htop (or top)
