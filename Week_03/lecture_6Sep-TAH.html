@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Git, GitHub" />
+    <meta name="description" content="Lecture introducing version control using Git." />
+    <title>BCB 546X -- 6 Sep 2017</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Introduction to Version Control using Git
+
+???
+
+Notes for the _first_ slide!
+
+---
+
+
+# Accessing Remote Machines
+
+## Streamline remote access: Authentication with a SSH key
+
+Passwords are not always secure and can be annoying to type.
+
+--
+
+* SSH keys are much more secure and allow you to log in without typing your password 
+(or just a different, simpler passphrase).
+
+--
+
+* When you generate a key, you create two things: a public key and a private key.
+
+--
+
+* You place the public key on any server and then unlock it by connecting to it with a client that already has the private key.
+
+--
+
+* When the two match up, the system unlocks without the need for a password.
+
+--
+
+* SSH keys are also very important for using Git with remote hosts (e.g., GitHub)
+
+---
+
+
+# Authentication with a SSH key
+
+Log in to `hpc-class`
+
+```
+ssh <ISU NetID>@hpc-class.its.iastate.edu
+```
+
+--
+
+Create the key pair in your home directory:
+
+```
+$ ssh-keygen -t rsa
+```
+--
+
+Once the `ssh-keygen` command has been issued, you will be asked a few questions:
+
+--
+
+```
+Enter file in which to save the key (/home/phylo/.ssh/id_rsa):
+```
+
+You can just hit _enter_ here and it should save it to the file path given.
+
+--
+
+```
+Enter passphrase (empty for no passphrase):
+```
+
+Here is where you decide if you want to password-protect your key. The downside, 
+to having a passphrase, is then having to type it in each time you use the Key Pair. 
+
+---
+
+# Authentication with a SSH key
+
+```
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/phylo/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/phylo/.ssh/id_rsa.
+Your public key has been saved in /home/phylo/.ssh/id_rsa.pub.
+The key fingerprint is:
+4a:dd:0a:c6:35:4e:3f:ed:27:38:8c:74:44:4d:93:67 phylo@Arrow
+The key's randomart image is:
++--[ RSA 2048]----+
+|          .oo.   |
+|         .  o.E  |
+|        + .  o   |
+|     . = = .     |
+|      = S = .    |
+|     o + = +     |
+|      . o + o .  |
+|           . o   |
+|                 |
++-----------------+
+```
+
+---
+
+# Authentication with a SSH key
+
+You now have a file called `id_rsa.pub` in your `.ssh` folder.
+
+```
+cat id_rsa.pub
+```
+
+```
+[phylo@hpc-class ~]$ cat .ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8QgicqcpFPeyYZhJFW5lBTAdAjHBaYzLwH3l7+lrdmpEKMMMhXMZV5ucxN5WzWU/ERYviYQvQ8NBzkSuHo+SgNJkufF92UqeHIfI/KqgVEGbQn6NGfa5WFBgWZAJAjMzUUrAhJ2qsBez4M1f70os1S2SNcNfoFAJRdWEGE8SX2lpww8+VdCOY6ONw3AYbZbrZtn/ua2hJg+XjYb3T04ggV6TNyV4nnN5r2pRIjJA5OBX1TWcB9HOE4ZIGZoZlk5OYuUJ5rOfuzVLqanWayB3ujuPxW3IUmI6XJt7uDc1N5iVNs2FusjSZmuggWtzCw/pb7EExvNxYMYOxCsewjE0L phylo@hpc-class.its.iastate.edu
+```
+
+Copy the entire contents of this file and add it to your GitHub account.
+
+---
+
+# Authentication with a SSH key
+
+Add your new ssh key to your GitHub account by going to _Settings_ in your profile.
+
+<div style="text-align:center"><img src="https://codenvy.com/docs-version/5.0.1/docs/assets/imgs/Clipboard6.jpg" style="width: 740px;" /></div>
+
+
+---
+
+# Tracking Your Science
+
+## Saving revisions is very important.
+
+## What kind of versioning do most of you use?
+
+```
+¯\_(ツ)_/¯
+```
+
+---
+
+# Version Control Systems
+
+## What options are there for versioning projects?
+
+--
+
+* The most common in biology are Git and SVN (and historically CVS).
+
+* There are [many others](https://en.wikipedia.org/wiki/Comparison_of_version_control_software)
+
+---
+
+# Version Control Systems
+
+## What do they allow you to do?
+
+--
+
+* Track changes made to each file
+
+--
+
+* Revert the entire project or a single file to a previous version
+
+--
+
+* Review changes made over time
+
+--
+
+* View who modified the file (and `blame` them for something if necessary)
+
+--
+
+* Collaborate with others without overwriting their work or risk file corruption, etc.
+
+--
+
+* Have multiple independent **_branches_** of the same repository and make changes without
+effecting others' work.
+
+--
+
+* And more...
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Git manages a filesystem as a set of snapshots 
+
+Snapshots are called _commits_ 
+
+<div style="text-align:center"><img src="https://git-scm.com/book/en/v2/book/01-introduction/images/snapshots.png" alt="gource" width="700" /></div>
+
+(image source [https://git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics))
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Almost every interaction with Git happens locally
+
+<div style="text-align:center"><img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" alt="gource" width="650" /></div>
+
+(image source [https://git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics))
+
+
+---
+
+# &#x2665; Git &#x2665;
+
+### A remote host adds an additional level to a Git repository
+
+Also, allows for collaboration and back-up.
+
+--
+
+<div style="text-align:center"><img src="https://2.bp.blogspot.com/-w2Z0FGVzygM/WBoAt2kuuCI/AAAAAAAABtU/voWHlUobfl8jB5-5NuSZD0BlN3A9jdMtgCLcB/s1600/basic-remote-workflow.png" alt="Drawing" width="425" /></div>
+
+(image source [https://www.git-tower.com](https://www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction))
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Remote Git repository hosting services
+
+### There are several options for remote hosts
+
+--
+
+* You can set up your own server and host all of your repositories privately using [Gitolite](https://github.com/sitaramc/gitolite/) or [Gitosis](https://git-scm.com/book/no-nb/v1/Git-on-the-Server-Gitosis) (not recommended)
+
+--
+
+* You can use a web-based Git host
+
+--
+
+    * [GitHub](https://github.com/) <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Drawing" width="35" />: free public repositories & paid private repositories, with repositories over 1 GB discouraged
+
+--
+    * [Bitbucket](https://bitbucket.org/) <img src="http://image.flaticon.com/icons/png/512/37/37104.png" alt="Drawing" width="25" />: unlimited free public & free private 
+    repositories, limited at 1-2 GB/repo (register with your *.edu* email to get unlimited 
+    collaborators on private repositories) 
+--
+    * [GitLab](https://about.gitlab.com/) <img src="https://maxcdn.icons8.com/Share/icon/color/Logos//gitlab1600.png" alt="Drawing" width="25" />: unlimited free public & free private repositories with no limits on collaborators, but limited at 10 GB/repo 
+
+???
+
+ISU has a private GitLab server
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Despite the &#x2665;, Git does have some limitations
+
+Most relevant to this course and our fields are:
+
+* **_Repository size_**: If your repository gets very large, working within it can be a problem.
+The network speed will be the main bottleneck. This is why the online Git hosts discourage repos
+over 1-2 GB. 
+
+* **_File size_**: A single large file can be problematic, particularly if it is frequently being
+modified. This can also lead to swollen repositories. GitHub will not allow any file over 100 MB.
+
+* **_File type_**: Git works best with text files, you can have binary files in your 
+repository, but you lose some functionality of version control (like `diff`). Binary files
+are also often very large. Thus, it is 
+recommended that you keep binary files to a minimum. (This means that it is not practical
+to use Git to collaborate on MS Word documents.) 
+
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Demo: Clone a Repository
+
+You become familiar with the concepts by using Git. We will start by cloning [ipyrad](https://github.com/dereneaton/ipyrad).
+
+ipyrad is a python program for interactive assembly and analysis of RAD-seq data sets
+
+--
+
+Start by going to [https://github.com/dereneaton/ipyrad](https://github.com/dereneaton/ipyrad) to get the URL.
+
+--
+
+```
+$ git clone git@github.com:dereneaton/ipyrad.git
+Cloning into 'ipyrad'...
+remote: Counting objects: 11341, done.
+remote: Compressing objects: 100% (304/304), done.
+remote: Total 11341 (delta 199), reused 0 (delta 0), pack-reused 11037
+Receiving objects: 100% (11341/11341), 70.75 MiB | 5.91 MiB/s, done.
+Resolving deltas: 100% (8275/8275), done.
+Checking connectivity... done.
+```
+
+Note that using the url `git@github...` instead of `https://github...` uses SSH 
+if you haven't configured your key yet, this may not work.
+
+---
+
+# &#x2665; Git &#x2665;
+
+### Some helpful commands for this cloned repository
+
+<div style="text-align:center"><img src="https://imgs.xkcd.com/comics/git_2x.png" alt="xkcd" width="250" /></div>
+
+(image source [https://xkcd.com/1597](https://xkcd.com/1597/))
+
+---
+
+# &#x2665; Git &#x2665;
+
+### Some helpful commands for this cloned repository
+
+
+**Always** `pull` from the repository before doing anything with the contents
+
+```
+$ git pull origin master
+```
+
+--
+
+Check the `status` of your local files
+
+```
+$ git status
+```
+
+--
+
+See the `log` of the snapshots and their commit messages
+
+```
+$ git log
+```
+
+--
+
+Compare the `diff`erences a file you have modified and the last commit
+
+```
+$ git diff README.rst
+```
+
+---
+
+# &#x2665; Git &#x2665;
+
+### Some helpful commands for this cloned repository
+
+Replace a file you modified with the most recent commit using `checkout`
+
+```
+$ git checkout README.rst
+```
+
+--
+
+Find out which `branch` you're on
+
+```
+$ git branch
+```
+--
+
+Change to a different branch
+
+```
+$ git checkout h5step7
+```
+
+--
+
+Pull to update from `h5step7`
+
+```
+$ git pull origin h5step7
+```
+
+---
+
+# &#x2665; Git &#x2665;
+
+## What can you do with someone else's GitHub repository?
+
+### If you do not have _push rights_ 
+
+--
+
+* You can only clone the repository and make changes locally
+
+--
+
+* You can **_fork_** their repository and develop it independently
+
+--
+
+* You can submit a **_pull request_** to their repository if you want to contribute to the original project
+
+--
+
+* You can contact the owner of the repository and ask them to include you as a 
+contributor and give you push rights (it is recommended that you discuss the nature of your collaboration with them first)
+
+---
+
+# &#x2665; Git &#x2665;
+
+## Creating a Repository
+
+Let's create a new Git repository and host it on GitHub using our accounts (for the demo, 
+I will create the repo in the [EEOB-BioData](https://github.com/EEOB-BioData) organization
+so that everyone will have easy access to it).
+
+<br>
+
+--
+
+But first, let's tell Git who you are
+
+```
+$ git config --global user.name "Ada Lovelace"
+$ git config --global user.email "adal@analyticalengine.com"
+```
+
+
+---
+
+# &#x2665; Git &#x2665;
+
+### Some helpful commands for your new repository
+
+--
+
+Initialize a new Git repository
+
+```
+$ git init
+```
+
+--
+
+After a file has been added or modified, you can stage the file 
+
+```
+$ git add README.md
+```
+
+--
+
+Commit the file to your local repository and write a message
+
+```
+$ git commit -m "initial commit (README.md)"
+```
+
+
+---
+
+# &#x2665; Git &#x2665;
+
+### Some helpful commands for your new repository
+
+After you have made your commit, the repository is up-to-date locally. Next you need to connect
+your local repo to the remote.
+
+--
+
+Add the remote
+
+```
+$ git remote add origin git@github.com:username/repo-name.git
+```
+
+--
+
+Push your snapshot to the remote
+
+```
+$ git push -u origin master
+```
+
+---
+
+# Your First Repository
+
+### Your Challenge (not graded)
+
+* Write some notes on Chapter 5 in [Bioinformatics Data Skills](http://vincebuffalo.org/book/) (or anything that you found interesting, confusing, or worth sharing) in 
+a text file (you can use Markdown or HTML if you like).
+
+* Add this file to your repository and push the changes to the remote on GitHub
+
+* Post the URL to your repository to the `#reading-discussion` channel on Slack
+
+* If you have any problems just post a message on the `#scripting_help` channel
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="terminal.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'xml',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>
