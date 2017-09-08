@@ -12,3 +12,5 @@ First, you must make a user account on GitHub if you don't have one already. Be 
 Lecture 1: [Introduction to Version Control using Git](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/lecture_6Sep-TAH.html#1)
 
 Lecture 2: [More Fun with Git](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/lecture_8Sep-TAH.html)
+
+This is my edit
