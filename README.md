@@ -34,7 +34,7 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
     * Material for this week can be found in the [Week 1](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Week_01) folder.
 * Lecture 2: Delving more deeply into UNIX [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html)]
 
-### Week 2
+### [Week 2](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_02/)
 
 * Lecture 1: Delving even more deeply into Unix [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html#52)]
 * Lecture 2: Introduction to high-performance computing [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_02/lecture_1Sep-MBH.html)]
