@@ -39,5 +39,13 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 * Lecture 1: Delving even more deeply into Unix [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html#52)]
 * Lecture 2: Introduction to high-performance computing [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_02/lecture_1Sep-MBH.html)]
 
+### [Week 3](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/)
+
+**Be sure to get a GitHub account:** [https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03)
+
+* Lecture 1: Introduction to Version Control using Git [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/lecture_6Sep-TAH.html)]
+
+* Lecture 2: More Fun with Git [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/lecture_8Sep-TAH.html)]
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
