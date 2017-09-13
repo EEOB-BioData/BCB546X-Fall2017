@@ -47,5 +47,10 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 
 * Lecture 2: More Fun with Git [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_03/lecture_8Sep-TAH.html)]
 
+### [Week 4](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_04/)
+
+* Lecture: UNIX data tools [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_04/lecture_13-Sep-MBH.html)]
+
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
