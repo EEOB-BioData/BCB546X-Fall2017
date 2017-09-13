@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="remote machines, Git, GitHub" />
-    <meta name="description" content="Lecture introducing remote machines and version control using Git." />
-    <title>BCB 546X -- 17 Jan 2017</title>
+    <meta name="keywords" content="UNIX data tools" />
+    <meta name="description" content="Lecture introducing UNIX data tools." />
+    <title>BCB 546X -- 13 Sep 2017</title>
     <style>
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -339,7 +339,7 @@ $ du -h Mus_musculus.GRCm38.75_chr1.bed
 
 --
 
-* We could find this by visually inspecting the first line of the file, but this open us up to human error:
+* We could find this by visually inspecting the first line of the file, but this opens us up to human error:
 
 ```
 $ head -n 1 Mus_musculus.GRCm38.75_chr1.bed
@@ -416,7 +416,7 @@ $ cut -f 2 Mus_musculus.GRCm38.75_chr1.bed | head -n 3
 
 --
 
-* The `-f` option allows us to specify columns in ranges (e.g., `-f 3-8`) and sets (e.g., `-f 1,3,5`) but _DOES NOT_ allow us to order columns (e.g., `-f 7,3,1`)
+* The `-f` option allows us to specify columns in ranges (e.g., `-f 3-8`) and sets (e.g., `-f 1,3,5`) but **_DOES NOT_** allow us to order columns (e.g., `-f 7,3,1`)
 
 --
 
@@ -601,6 +601,14 @@ $ file improper.fa
 
 --
 
+* If you're working on hpc-class:
+
+```
+module load bioawk
+```
+
+* If you're working on a directory on your own machine:
+
 ```
 $ git clone git://github.com/lh3/bioawk.git
 $ cd bioawk
@@ -615,6 +623,10 @@ $ sudo cp bioawk /usr/local/bin/
 $ brew tap homebrew/science
 $ brew install bioawk
 ```
+
+---
+
+## Illustrating the trouble a non-ASCII character can cause
 
 --
 
