@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>VI tutorial</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">VI tutorial</h1>
+
+<p><img src="/Users/dlavrov/Downloads/q6qh3roz0v7z.png" alt="Image"></p>
+
+<h2 id="toc_1">Some preliminaries</h2>
+
+<p>You can use <code>vi</code> to edit any text file. <code>vi</code> copies the file to be edited into a buffer, 
+displays the buffer, and lets you add, delete, and change text. When you save your edtis, vi copies the edited buffer back into a file, replacing the old file of the same name.</p>
+
+<hr>
+
+<h2 id="toc_2">Minimal vi</h2>
+
+<h3 id="toc_3">Opening a file</h3>
+
+<p>Type <code>vi [filename]</code> to open an existing or a new file.  Notice the tildes at the left side, which indicates empty lines and the name and status of the file on the last line (called the prompt line or the status line).  </p>
+
+<h3 id="toc_4">Two faces of vi</h3>
+
+<p><strong>Improtant!</strong><br>
+When you open a file, you start out in the <em>command</em> mode, one of the two modes in which vi operates (the other being the <em>insert</em> mode).   In the command mode every keystroke represents a command, rather than a text that you try to type. To switch to the <em>insert</em> mode, you use <code>i</code>, <code>I</code>, <code>a</code>, <code>A</code>, and a few other commands. To get back to the command mode, you use the <code>ESC</code> key.</p>
+
+<h3 id="toc_5">Basic editing</h3>
+
+<p>After you entered the editing mode, you can move by using arrow keys, delete pre-existing text with the <code>delete</code> key, and type your new text as in any other editor (but note that you can&#39;t use the mouse in vi (but see below)). To switch back to the command mode, use the <code>ESC</code> key. </p>
+
+<h3 id="toc_6">To save and quit a file</h3>
+
+<p>Use <code>ZZ</code> command to save edits and quit (note that ZZ is capitalized; vi commands are case sensitive). However, it is very common in <code>vi</code> to use commands from another editor, called <code>ex</code> (in fact, vi is the visual mode for that editor!). To save and quit a file using the <code>ex</code> command, you type <code>:wq</code> or <code>:x</code>. You type <code>:q!</code> to exit the editor without saving the file.</p>
+
+<p><strong>Congratulations! You can now edit in vi!</strong></p>
+
+<hr>
+
+<h2 id="toc_7">Intermediate vi</h2>
+
+<p>There are many additional vi command, which will make your editing more efficient.  Here are some that I found useful:</p>
+
+<h3 id="toc_8">Simple edits</h3>
+
+<p><code>i</code> to insert text before the cursor (<code>I</code> at the beginning of the line)<br>
+<code>a</code> to add text after the cursor (<code>A</code> at the end of the line)<br>
+<code>d</code> to delete<br>
+- <code>dw</code> to delete a word<br>
+- <code>dd</code> deletes a line<br>
+- <code>dl</code> or <code>x</code> deletes one character<br>
+- <code>D</code> deletes from the cursor position to the end of the line  </p>
+
+<p><code>r</code> will replace a single character (without switching to the editing mode)<br>
+<code>~</code> will replace the case of the letter</p>
+
+<p>You can also use <code>cw</code>, <code>cc</code>, <code>C</code> to change a word, line, or the rest of the line and <code>s</code> to substitute character at cursor (<code>S</code> will substitute a line).  </p>
+
+<p><strong>Important!</strong><br>
+For most of these commands, you can add an integer in front to execute them multiple times. <em>E.g.</em>, <code>2dd</code> will delete two lines, <code>2cb</code> will change back two words, and <code>20i hi, there!</code>+<code>ESC</code> will insert that phrase 20 times.</p>
+
+<p>Finally, <code>.</code> will repeat the previous command and <code>u</code> will undo the last change.    </p>
+
+<h3 id="toc_9">Complex movements</h3>
+
+<p>There are vi commands to scroll forward and backward through the file by full and half screens: <code>^F</code>, <code>^D</code>,<code>^B</code>, and <code>U</code>, respectively, where <code>^</code> stands for the <code>CTRL</code> key. </p>
+
+<p>On the screen itself, you can move to the top line, middle line, and last line with <code>H</code>, <code>M</code>, and <code>L</code>.</p>
+
+<p>Use <code>0</code>/<code>^</code> and <code>$</code> to move to the beginning and end of a line.</p>
+
+<p>Use <code>#G</code> to go to a specific (#) line of your file. <code>G</code> without a line number moves the cursor to the last line of the file.  Typing two backquotes returns you to your original position. BTW, to see numbers in vi type <code>:set nu</code> or <code>:set number</code> (<code>:set nu!</code> or <code>:set nonumber</code> to remove them).</p>
+
+<p>Obviously, there are commands for &quot;simple movements&quot; as well: <code>h</code>, <code>j</code>, <code>k</code>, and <code>l</code> move your cursor left, down, up, and right, respectively, while <code>e</code> and <code>b</code> move it to the beginning/end of a word. <code>+</code> and <code>-</code> will move you to the first character of the next and prevous line, respectively.</p>
+
+<h3 id="toc_10">Movement by Searches</h3>
+
+<p>A quick way to move around in a large file is by searching for a pattern of characters using the <code>/</code> (slash) command. When you enter a slash, it appears on the bottom line of the screen; you then type in the pattern that you want to find: <code>/pattern</code> and press <code>ENTER</code>. You can use the regular expressions in your search pattern.</p>
+
+<p>To search backward, type <code>?pattern</code>.<br>
+To repeat the search forward/backward, type <code>n</code>/<code>N</code>, respectively.</p>
+
+<p>You can also search for a specific character in a line, by using <code>fx</code> and <code>Fx</code> commands (<code>x</code> can be any character). <code>;</code> and <code>,</code> will repeat the search.</p>
+
+<h3 id="toc_11">Cutting, copying, and pasting.</h3>
+
+<p>To cut any text from a file, you delete it (all versions of the <code>d</code> command, like <code>dd</code> and <code>dw</code> will work). The deleted text is temporarily saved in a special buffer. To paste it back, use the <code>p</code> (put) command. The lowercase <code>p</code> puts the text after the cursor position. The uppercase <code>P</code> puts the text before the cursor.  </p>
+
+<p>There are <em>nine</em> unnamed buffers, where your deletions are saved. You access them with <code>&quot;</code>. The last delete is saved in buffer 1, the second-to-last in buffer 2, and so on. To recover your second-to-last deletion, type: <code>&quot;2p</code>.</p>
+
+<p>To copy some text, use the <code>y</code> (for yank) command. The yank command can be combined with any movement command (<code>yw</code>, <code>y$</code>, <code>y^</code>). Both <code>yy</code> and <code>Y</code> yank the whole line. After yanking some text, you can paste (put) it with <code>p</code> or <code>P</code>.</p>
+
+<p>In addition, to unnamed buferrs, there are 26 named buffers (a-z) where you can save deleted or yanked text.</p>
+
+<p><code>&quot;z5dd</code> will delete five lines into buffer z<br>
+<code>&quot;z5yy</code> will copy five lines into buffer z.  </p>
+
+<p>If you specify a buffer name with a capital letter, your yanked or deleted text will be appended to the current contents of that buffer. </p>
+
+<h3 id="toc_12">Joining Two Lines with J</h3>
+
+<p>Use <code>J</code> to join the current line with the following line.</p>
+
+<h3 id="toc_13">Repeating or Undoing Your Last Command</h3>
+
+<p><code>.</code> (a period) will repeat the previous command
+<code>u</code> will undo the previous command
+<code>U</code> undoes all edits on a single line, as long as the cursor
+remains on that line.</p>
+
+<p><strong>Congratulations! You can be very efficient in vi now! But there is more...</strong></p>
+
+<hr>
+
+<h2 id="toc_14">Advanced vi</h2>
+
+<h3 id="toc_15">Ex editor</h3>
+
+<p>You have seen some of the ex commands already (<code>:x</code>, <code>:wq</code>, <em>etc.</em>). In fact, every time we type a colon in <strong>vi</strong> we invoke an ex command. Technically, <strong>ex</strong> is a line editor and <strong>vi</strong> is its visual mode (also known as a screen editor).  You can use <strong>ex</strong> by itself in unix, but it can be tricky. The thing to remember is that <strong>ex</strong> deals with lines, so its basic commands <code>d</code>, <code>m</code>, <code>co</code> will delete, move, and copy a line.  The power of <strong>ex</strong> comes from its ability to deal with multiple lines at the same time. </p>
+
+<h4 id="toc_16">Three ways to access lines in ex:</h4>
+
+<ul>
+<li>With explicit line numbers<br></li>
+<li>With symbols that help you specify line numbers relative to your current position in the file<br></li>
+<li>With search patterns as addresses that identify the lines to be affected<br></li>
+</ul>
+
+<p>The first way is rather selfexplanatory: <code>:3,18d</code> will delete lines 3 through 18 (remember, that you can see line numbers with <code>:set nu</code> or <code>:set number</code>). </p>
+
+<p>You can also use symbols for line addresses. A dot <code>.</code> stands for the current line; and <code>$</code> stands for the last line of the file. <code>%</code> stands for every line in the file. For example: <code>:.,$d</code> deletes from current line to the end of file and <code>:%d</code> deletes all lines in the file.</p>
+
+<p>Finally, ex can address lines  by using search patterns. For example: <code>:/pattern/d</code> delete the next line containing pattern.
+<code>:/pattern/+d</code> deletes the line below the next line containing pattern, while <code>:/pattern1/,/pattern2/d</code> deletes from the first line containing <em>pattern1</em> through the first line containing <em>pattern2</em>.</p>
+
+<p>Finally, all three ways to access lines can be combined in the same command.</p>
+
+<h3 id="toc_17">Global replacements</h3>
+
+<p>Global replacements use two <strong>ex</strong> commands: <code>:g</code> (global) and <code>:s</code> (substitute).</p>
+
+<p>The substitute command <code>:s/old/new/</code> changes the first occurrence of the pattern <em>old</em> to <em>new</em> on the current line. If you add <code>g</code> after the pattern: <code>:s/old/new/g</code> it will change every occurrence of <em>old</em> to <em>new</em> on the current line.   </p>
+
+<p><strong>Important!</strong><br>
+By prefixing the <code>:s</code> command with addresses, you can extend its range to more than one line: <code>:50,100s/old/new/g</code> or (my favorite) <code>:%s/old/new/g</code>.</p>
+
+<p>To confirm each replacement before it is made, add the c option (for confirm) at the end of the substitute command:
+<code>:1,30s/his/the/gc</code>. Alternatively, one can use <code>n</code> (repeat last search) and dot <code>.</code> (repeat last command).  </p>
+
+<p>You can also make replacements only on lines that match a specific pattern by combining the global command <code>g</code> and the substitute <code>s</code> command <code>:g/pattern/s/old/new/g</code> (you can skip <em>old</em> if it is the same as <em>pattern</em>).</p>
+
+<p><strong>Important!</strong><br>
+When making replacements, you can search not just for fixed strings of characters, but also for regular expressions (using <code>.</code>, <code>*</code>, <code>[]</code>, etc). </p>
+
+<p><code>\( \)</code> Saves the pattern enclosed between ( and ) into a “hold buffer.” Up to nine patterns can be saved in this way on a single line and used in replacement string by the sequences <code>\1</code> to <code>\9</code>.</p>
+
+<p><code>\&lt; \&gt;</code> match characters at the beginning (&lt;) or at the end (&gt;) of a word.</p>
+
+<p>In addition to the regular characters and regular expressions, <strong>vi</strong> can use <a href="http://www.regular-expressions.info/posixbrackets.html"><em>POSIX Bracket Expressions</em></a> in searches. Examples include alphanumeric characters <code>[:alnum:]</code>, collating symbols <code>[.sch.]</code>, and equivalence classes <code>[=e=]</code> matching e, è, or é in a French locale. Note that these expressions should themselves be used inside the square brackets (<em>e.g.</em>, <code>[[:alpha:]]</code>).  </p>
+
+<h3 id="toc_18">Working with multiple files</h3>
+
+<h4 id="toc_19">Copying a file into another file</h4>
+
+<p>To read the contents of another into a file you are editing, use the <code>:read filename</code> or <code>:r filename</code> command.</p>
+
+<p>If you want to specify a line other than the one the cursor’s on, simply type the line number (or other line address) you want before <code>r</code> (or <code>read</code>). You can also use all other ways to access lines in <strong>ex</strong>.</p>
+
+<h4 id="toc_20">Editing multiple files</h4>
+
+<p>You can edit multiple files in <strong>vi</strong> by providing several filenames when you start the editor: <code>vi file1 file2 file3</code> or <code>vi file*</code>. You can also load another file at any time with the ex command <code>:e</code>. But note, that to edit another file within <strong>vi</strong>, you first need to save your current file (<code>:w</code>), then give the command:<code>:e filename</code>. After you have finished editing the first file, the ex command <code>:w</code> writes (saves) file1 and <code>:n</code> calls in the next file (file2). The <code>:args</code> command (abbreviated <code>:ar</code>) lists all the files you are editing, with the current file enclosed in brackets. You can also use vi <code>Ctrl^</code> command to switch to the file you edited previously. </p>
+
+<h2 id="toc_21">VIM (Vi IMproved)</h2>
+
+<ul>
+<li><strong>Syntax extensions</strong><br>
+Vim lets you control indentation and syntax-based color coding of your text. </li>
+<li><strong>Programmer assistance</strong><br>
+Vim offers many features normally found in Integrated Development Environments (IDEs). </li>
+<li><strong>Graphical user interface (GUI)</strong><br></li>
+<li><strong>Scripting and plug-ins</strong><br>
+You can write your own Vim extensions or download plug-ins from the Internet.</li>
+<li><strong>Initialization</strong><br>
+Vim, like vi, uses configuration files to define sessions at startup time, but Vim has a vastly expanded repertoire of definable behaviors. </li>
+<li><strong>Session context</strong><br>
+Vim keeps session information in a file, .viminfo. Not only does Vim remember edits in your last session for a file, it remembers basic things between files. This is handy for editing activities such as grabbing a sequence of lines in one file (with y [yank], or d [delete]) and “putting” them in another.</li>
+<li><strong>Postprocessing</strong><br>
+In addition to performing presession functions, Vim lets you define what to do after you’ve edited a file. You can write cleanup routines to delete temporary files accumulated from compiles, or do real-time edits to the file before it’s written back to storage. You have complete control to customize any postedit activities</li>
+<li><strong>Transparent editing</strong><br>
+Vim detects and automatically unbundles archived or compressed files. For example, you can directly edit a zipped file such as myfile.tar.gz. You can even edit directories. Vim lets you navigate a directory and select files to edit using familiar Vim navigation commands.</li>
+<li><strong>Meta-information</strong>
+Vim offers four handy read-only registers from which the user may extract meta- information for “puts”: the current filename (%), the alternate filename (#), the last command-line command executed (:), and the last inserted text (., a period).</li>
+<li><strong><em>etc.</em></strong></li>
+</ul>
+
+
+
+
+</body>
+
+</html>
