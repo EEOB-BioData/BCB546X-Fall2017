@@ -51,7 +51,7 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 
 * Lecture: UNIX data tools [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_04/lecture_13-Sep-MBH.html)]
 
-## Week 5
+### Week 5
 
 * Lecture 1: Unix continued [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_04/lecture_13-Sep-MBH.html#148)]
 
