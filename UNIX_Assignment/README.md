@@ -23,11 +23,9 @@ $ less snp_position.txt
 
 $ wc  fang_et_al_genotypes.txt snp_position.txt
 
-    2783    2744038     11051939    fang_et_al_genotypes.txt
-
-    984     13198       82763   snp_position.txt
-
-    3767    2757236     11134702    total
+	2783  2744038 11051939 fang_et_al_genotypes.txt
+	984    13198    82763 snp_position.txt
+	3767  2757236 11134702 total
 
 ## **Only number of lines**
 
@@ -379,4 +377,4 @@ $ wc *zmp*de*
       6    5862   23214 group_zmp_with_decre_pos_chrmultiple.txt
      27   26406  103275 group_zmp_with_decre_pos_chrunknown.txt
     983  961368 3771088 total
-Total of 40 files were produced.
+Total of 44 files were produced.
