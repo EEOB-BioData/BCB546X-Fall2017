@@ -24,7 +24,9 @@ $ less snp_position.txt
 $ wc  fang_et_al_genotypes.txt snp_position.txt
 
 2783  2744038 11051939 fang_et_al_genotypes.txt
+
 984    13198    82763 snp_position.txt
+
 3767  2757236 11134702 total
 
 ## **Only number of lines**
@@ -32,7 +34,9 @@ $ wc  fang_et_al_genotypes.txt snp_position.txt
 $ wc -l fang_et_al_genotypes.txt snp_position.txt
 
     2783 fang_et_al_genotypes.txt
+    
      984 snp_position.txt
+     
     3767 total
 
 ## **File size**
@@ -40,6 +44,7 @@ $ wc -l fang_et_al_genotypes.txt snp_position.txt
 $ du -lh fang_et_al_genotypes.txt snp_position.txt
 
 11M	fang_et_al_genotypes.txt
+
 84K	snp_position.txt
     
 ## **Number of columns**
