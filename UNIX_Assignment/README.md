@@ -9,17 +9,17 @@ The repository should include a README.md file in Markdown format.
 The README.md file **describes the workflow** for the data inspection and data processing and all the files created.
 When the assignment is finished, **send a url linking** to the GitHub repository via a Slack direct message to all three instructors.
 
-# Data Inspection
+# _Data Inspection_
 
 The objective here is to describe the structure of fang_et_al_genotypes.txt and snp_position.txt files
 
-**inspecting files broadly**
+## **inspecting files broadly**
 
 $ less fang_et_al_genotypes.txt
 
 $ less snp_position.txt
 
-**Number of lines, words and bytes**
+## **Number of lines, words and bytes**
 
 $ wc  fang_et_al_genotypes.txt snp_position.txt
 
@@ -27,7 +27,7 @@ $ wc  fang_et_al_genotypes.txt snp_position.txt
 984    13198    82763 snp_position.txt
 3767  2757236 11134702 total
 
-**Only number of lines**
+## **Only number of lines**
 
 $ wc -l fang_et_al_genotypes.txt snp_position.txt
 
@@ -35,14 +35,14 @@ $ wc -l fang_et_al_genotypes.txt snp_position.txt
      984 snp_position.txt
     3767 total
 
-**File size**
+## **File size**
 
 $ du -lh fang_et_al_genotypes.txt snp_position.txt
 
 11M	fang_et_al_genotypes.txt
 84K	snp_position.txt
     
-**Number of columns**
+## **Number of columns**
 
 $ awk '{print NF; exit}' fang_et_al_genotypes.txt 
 
@@ -52,13 +52,13 @@ $ awk -F "\t" '{print NF; exit}' snp_position.txt
 
 15
 
-**Name of the first ten columns of fang_et_al_genotype.txt*
+## **Name of the first ten columns of fang_et_al_genotype.txt**
 
 $ head -n 1 fang_et_al_genotypes.txt | awk '{print $1,$2,$3,$4,$5,$6,$7,$8,$9,$10}'
 
 Sample_ID JG_OTU Group abph1.20 abph1.22 ae1.3 ae1.4 ae1.5 an1.4 ba1.6
 
-**Name of the columns of snp_position.txt**
+## **Name of the columns of snp_position.txt**
 
 $ head -n 1 snp_position.txt
 
@@ -71,11 +71,13 @@ Genaissance_daa_id	Sequenom_daa_id	count_amplicons	count_cmf	count_gene
 
 The goal here is to process the files with UNIX. The process of formating the files is describe here.
 
+
 ## Extracting the genotype file
 
-#### Extracting the genotype file for maize groups= ZMMIL,ZMMLR and ZMMMR
 
-I used -c to know with how many information I am dealing with (number of lines);
+## Extracting the genotype file for maize groups= ZMMIL,ZMMLR and ZMMMR
+
+* I used -c to know with how many information I am dealing with (number of lines);
 
 $ grep -c 'ZMMIL' fang_et_al_genotypes.txt
 290
@@ -84,27 +86,27 @@ $ grep -c 'ZMMLR' fang_et_al_genotypes.txt
 $ grep -c 'ZMMMR' fang_et_al_genotypes.txt
 27
 
-I keep with only the titles of the data on the file group_zmm.txt
+* I keep with only the titles of the data on the file group_zmm.txt
 
 $ head -n 1 fang_et_al_genotypes.txt > group_zmm.txt
 
-I joined the information of the groups ZMMIL, ZMMLR, and ZMMMR genotypes to group_zmm.txt
+* I joined the information of the groups ZMMIL, ZMMLR, and ZMMMR genotypes to group_zmm.txt
 
 $ awk '$3 ~ /ZMMIL|ZMMLR|ZMMMR/ {print $0}' fang_et_al_genotypes.txt >> group_zmm.txt
 
-I keep with the columns of Sample_ID and genotypes and created the newfile group_zmm_genotype.txt
+* I keep with the columns of Sample_ID and genotypes and created the newfile group_zmm_genotype.txt
 
 $ cut -f 1,4-986 group_zmm.txt > group_zmm_genotype.txt
 
-Now, to sort the information by SNP_ID I transpose the group_zmm_genotype.txt file to the group_zmm_trans_genotype.txt
+* Now, to sort the information by SNP_ID I transpose the group_zmm_genotype.txt file to the group_zmm_trans_genotype.txt
 
 $ awk -f transpose.awk group_zmm_genotype.txt > group_zmm_trans_genotype.txt
 
-Finally, I can sort the file group_zmm_trans_genotype.txt and created a new file group_zmm_trans_genotype_sorted.txt
+* Finally, I can sort the file group_zmm_trans_genotype.txt and created a new file group_zmm_trans_genotype_sorted.txt
 
 $ tail -n +2 group_zmm_trans_genotype.txt | sort -k1,1 > group_zmm_trans_genotype_sorted.txt
 
-I check the result of the first ten rows and the first five columns of group_zmm_trans_genotype_sorted.txt
+* I check the result of the first ten rows and the first five columns of group_zmm_trans_genotype_sorted.txt
 
 $ head group_zmm_trans_genotype_sorted.txt | awk '{print $1,$2,$3,$4,$5}'
 
@@ -119,27 +121,27 @@ ba1.9 G/G G/T ?/? G/G
 bt2.5 C/C C/C C/C C/C
 bt2.7 ?/? ?/? G/G G/G
 
-#### Extracting the genotype file for teosinte groups= ZMPBA,ZMPIL and ZMPJA 
+## Extracting the genotype file for teosinte groups= ZMPBA,ZMPIL and ZMPJA 
 
 For this group I repeated the same process as in the maize group:
 
-I keep with the titles of the file
+* I keep with the titles of the file
 
 $ head -n 1 fang_et_al_genotypes.txt > group_zmp.txt
 
-I added the selected groups to the file
+* I added the selected groups to the file
 
 $ awk '$3 ~ /ZMPBA|ZMPIL|ZMPJA/ {print $0}' fang_et_al_genotypes.txt >> group_zmp.txt
 
-I keep with the columns of interest
+* I keep with the columns of interest
 
 $ cut -f 1,4-986 group_zmp.txt > group_zmp_genotype.txt 
 
-I transpose the file
+* I transpose the file
 
 $ awk -f transpose.awk group_zmp_genotype.txt > group_zmp_trans_genotype.txt
 
-Finally, I sort the file
+* Finally, I sort the file
 
 $ tail -n +2 group_zmp_trans_genotype.txt | sort -k1,1 > group_zmp_trans_genotype_sorted.txt
 
@@ -159,15 +161,15 @@ bt2.5 T/T C/T C/T C/C
 bt2.7 A/A A/A A/A A/A
 
 
-### Editing the SNP positions file
+## Editing the SNP positions file
 
 In order to joined the genotypes to the SNP positions is necessary a previus work on the snp_position.txt file
 
-I keep with the first, third and fourth columns of interest of the snp_position.txt file and save to the snp_positon_cutted.txt file
+* I keep with the first, third and fourth columns of interest of the snp_position.txt file and save to the snp_positon_cutted.txt file
 
 $ cut -f 1,3,4 snp_position.txt > snp_position_cutted.txt
 
-I check that the file has been created correctly 
+* I check that the file has been created correctly 
 
 $ awk '{print NF;exit}' snp_position_cutted.txt
 
@@ -186,7 +188,7 @@ ba1.6	3	181362952
 ba1.9	3	181362666
 bt2.5	4	66290049
 
-Now, I sort the snp_position_cutted.txt file and save as a new file snp_position_cutted_sorted.txt. I start by the second line so I skip of the titles.
+* Now, I sort the snp_position_cutted.txt file and save as a new file snp_position_cutted_sorted.txt. I start by the second line so I skip of the titles.
 
 $ tail -n +2 snp_position_cutted.txt | sort -k1,1 > snp_position_cutted_sorted.txt
 
@@ -205,13 +207,13 @@ ba1.9	3	181362666
 bt2.5	4	66290049
 bt2.7	4	66290994
 
-####  Joining SNP positions and genotypes for Maize groups
+##  Joining SNP positions and genotypes for Maize groups
 
-I joined the files of positions and genotypes by the first columns of both files.
+* I joined the files of positions and genotypes by the first columns of both files.
 
 $ join -t $'\t' -1 1 -2 1 snp_position_cutted_sorted.txt group_zmm_trans_genotype_sorted.txt > group_zmm_with_position.txt
 
-Now, I check the results 
+* Now, I check the results 
 
 first ten rows and first five columns of the group_zmm_with_position.txt
 
@@ -243,13 +245,13 @@ zen1.4 unknown unknown ?/? T/T
 zfl2.6 2 12543294 G/G C/C
 zmm3.4 9 16966348 C/C C/C
 
-#### Joining SNP positions and genotypes for Teosinte groups
+## Joining SNP positions and genotypes for Teosinte groups
 
-I joined the files of positions and genotypes by the first columns of both files.
+* I joined the files of positions and genotypes by the first columns of both files.
 
 $ join -t $'\t' -1 1 -2 1 snp_position_cutted_sorted.txt group_zmp_trans_genotype_sorted.txt > group_zmp_with_position.txt
 
-first ten rows and first five columns of the group_zmp_with_position.txt
+* first ten rows and first five columns of the group_zmp_with_position.txt
 
 $ head group_zmp_with_position.txt | awk '{print $1,$2,$3,$4,$5}'
 
@@ -264,7 +266,7 @@ ba1.9 3 181362666 G/G G/G
 bt2.5 4 66290049 T/T C/T
 bt2.7 4 66290994 A/A A/A
 
-last ten rows and first five columns of the group_zmp_with_position.txt
+* last ten rows and first five columns of the group_zmp_with_position.txt
 
 $ tail group_zmp_with_position.txt | awk '{print $1,$2,$3,$4,$5}'
 
@@ -279,15 +281,15 @@ zen1.4 unknown unknown T/T C/C
 zfl2.6 2 12543294 G/G ?/?
 zmm3.4 9 16966348 C/C ?/?
 
-### Creating files for Maize chromosomes and encoding missing data
+## Creating files for Maize chromosomes and encoding missing data
 
 The following line encoded the missing data with the command sed 's/?.?/?/g'
 The command more displayed the files being created
-For the increased position values
+* For the increased position values
 
 $  more group_zmm_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk -F '\t' '{print >"group_zmm_with_incre_pos_chr"$2".txt"}'
 
-Inspecting the created data file information 
+* Inspecting the created data file information 
 
 $ wc *zmm*incre*
 
@@ -305,11 +307,11 @@ $ wc *zmm*incre*
      27   42552  166473 group_zmm_with_incre_pos_chrunknown.txt
     983 1549202 6057428 total
     
-For the decreased position values
+* For the decreased position values
 
 $ more group_zmm_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk -F '\t' '{print >"group_zmm_with_decre_pos_chr"$2".txt"}'
 
-Inspecting the created data file information 
+* Inspecting the created data file information 
 
 $ wc *zmm*de*
      53   83528  326406 group_zmm_with_decre_pos_chr10.txt
@@ -326,13 +328,13 @@ $ wc *zmm*de*
      27   42552  166473 group_zmm_with_decre_pos_chrunknown.txt
     983 1549202 6057428 total
 
-### Creating files for Teosinte chromosomes and encoding missing data
+## Creating files for Teosinte chromosomes and encoding missing data
 
-For the increased position values
+* For the increased position values
 
 $ more group_zmp_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk -F '\t' '{print >"group_zmp_with_incre_pos_chr"$2".txt"}'
 
-Inspecting the created data file information 
+* Inspecting the created data file information 
 
 wc *zmp*incre*
      53   51834  203652 group_zmp_with_incre_pos_chr10.txt
@@ -349,11 +351,11 @@ wc *zmp*incre*
      27   26406  103275 group_zmp_with_incre_pos_chrunknown.txt
     983  961368 3771088 total
 
-For the decreased position values
+* For the decreased position values
 
 $ more group_zmp_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk -F '\t' '{print >"group_zmp_with_decre_pos_chr"$2".txt"}'
 
-Inspecting the created data file information 
+* Inspecting the created data file information 
 
 $ wc *zmp*de*
      53   51834  203652 group_zmp_with_decre_pos_chr10.txt
