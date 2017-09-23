@@ -290,6 +290,7 @@ The command more displayed the files being created
 $  more group_zmm_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk -F '\t' '{print >"group_zmm_with_incre_pos_chr"$2".txt"}'
 
 * Inspecting the created data file information 
+
 ```
 $ wc group_zmm_with_incre*
 
@@ -306,12 +307,14 @@ $ wc group_zmm_with_incre*
       6    9450   37068 group_zmm_with_incre_pos_chrmultiple.txt
      27   42552  166473 group_zmm_with_incre_pos_chrunknown.txt
     983 1549202 6057428 total
+    
     ```
 * For the decreased position values
 
 $ more group_zmm_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk -F '\t' '{print >"group_zmm_with_decre_pos_chr"$2".txt"}'
 
 * Inspecting the created data file information 
+
 ```
 $ wc group_zmm_with_de*
 
@@ -328,6 +331,7 @@ $ wc group_zmm_with_de*
           6    9450   37068 group_zmm_with_decre_pos_chrmultiple.txt
          27   42552  166473 group_zmm_with_decre_pos_chrunknown.txt
         983 1549202 6057428 total
+	
 	```
 
 ## Creating files for Teosinte chromosomes and encoding missing data
@@ -337,6 +341,7 @@ $ wc group_zmm_with_de*
 $ more group_zmp_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk -F '\t' '{print >"group_zmp_with_incre_pos_chr"$2".txt"}'
 
 * Inspecting the created data file information 
+
 ```
 wc group_zmp_with_incre*
 
@@ -353,6 +358,7 @@ wc group_zmp_with_incre*
       6    5862   23214 group_zmp_with_incre_pos_chrmultiple.txt
      27   26406  103275 group_zmp_with_incre_pos_chrunknown.txt
     983  961368 3771088 total
+    
     ```
 
 * For the decreased position values
@@ -362,6 +368,7 @@ $ more group_zmp_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk
 * Inspecting the created data file information 
 
 ```
+
 $ wc group_zmp_with_de*
 
      53   51834  203652 group_zmp_with_decre_pos_chr10.txt
@@ -377,5 +384,6 @@ $ wc group_zmp_with_de*
       6    5862   23214 group_zmp_with_decre_pos_chrmultiple.txt
      27   26406  103275 group_zmp_with_decre_pos_chrunknown.txt
     983  961368 3771088 total
+    
     ```
 Total of 44 files were produced.
