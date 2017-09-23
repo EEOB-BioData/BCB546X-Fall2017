@@ -291,7 +291,7 @@ $  more group_zmm_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk
 
 * Inspecting the created data file information 
 ```
-$ wc *zmm*incre*
+$ wc group_zmm_with_incre*
 
      53   83528  326406 group_zmm_with_incre_pos_chr10.txt
     155  244280  952543 group_zmm_with_incre_pos_chr1.txt
@@ -313,7 +313,7 @@ $ more group_zmm_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk
 
 * Inspecting the created data file information 
 ```
-$ wc *zmm*de*
+$ wc group_zmm_with_de*
 
          53   83528  326406 group_zmm_with_decre_pos_chr10.txt
         155  244280  952543 group_zmm_with_decre_pos_chr1.txt
@@ -338,7 +338,7 @@ $ more group_zmp_with_position.txt | sed 's/?.?/?/g' | sort -k2,2n -k3,3n | awk 
 
 * Inspecting the created data file information 
 ```
-wc *zmp*incre*
+wc group_zmp_with_incre*
 
      53   51834  203652 group_zmp_with_incre_pos_chr10.txt
     155  151590  593685 group_zmp_with_incre_pos_chr1.txt
@@ -362,7 +362,7 @@ $ more group_zmp_with_position.txt | sed 's/?.?/-/g' | sort -k2,2n -k3,3nr | awk
 * Inspecting the created data file information 
 
 ```
-$ wc *zmp*de*
+$ wc group_zmp_with_de*
 
      53   51834  203652 group_zmp_with_decre_pos_chr10.txt
     155  151590  593685 group_zmp_with_decre_pos_chr1.txt
