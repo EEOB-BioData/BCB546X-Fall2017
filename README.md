@@ -63,6 +63,7 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 ### Week 7
 
 * More R ([https://eeob-biodata.github.io/R-Data-Skills/](https://eeob-biodata.github.io/R-Data-Skills))
+* Genomic Ranges [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_07/lecture_13Oct-MBH.html)]
 
 
 
