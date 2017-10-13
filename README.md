@@ -65,7 +65,12 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 * More R ([https://eeob-biodata.github.io/R-Data-Skills/](https://eeob-biodata.github.io/R-Data-Skills))
 * Genomic Ranges [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_07/lecture_13Oct-MBH.html)]
 
+### [Week 8](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08/)
 
+In week 8, we will start learning Python! For these lessons, you can work on your own computer. 
+Please be sure to follow the download/install instructions for python that we require for the class: [https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08/).
+
+* [Introduction to Python](https://eeob-biodata.github.io/2017-python-programming/) (led by Dr. [Jordan Satler](https://jordandsatler.wordpress.com/))
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

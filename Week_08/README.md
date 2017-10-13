@@ -9,7 +9,7 @@ The following install instructions are from the [Data Carpentry lesson on Python
 ### Windows
 
 * Download and install [Anaconda](http://continuum.io/downloads.html)
-* Download the default Python 3 installer. Use all of the defaults for installation and **make sure to check Make Anaconda the default Python**.
+* Download the default Python 3 installer. Use all of the defaults for installation and **make sure to check "Make Anaconda the default Python"**.
 
 ### Mac OS X
 
