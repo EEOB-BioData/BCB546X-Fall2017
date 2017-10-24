@@ -4,6 +4,8 @@
 
 This is an additional lesson covering basic file input/output in Python. For this lesson, we will not use any fancy packages, just the core Python functions.
 
+Start by pulling the course git repository and changing to the `BCB546X-Fall2017/Week_09/additional-lesson` directory.
+
 In this directory is a file called `input.txt`. This file comprises 5 lines, each with a string of nucleotide data:
 
 ```
