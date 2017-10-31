@@ -19,14 +19,14 @@ Additionally, Dr. X has written some comments and pseudocode that outline other 
 ## Details
 
 * Download the necessary files from the [`Python_Assignment`](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Python_Assignment) folder in the course repository and add them to your own repository where you will submit this assignment. The files required are:
-    * `python_translate.py`
+    * `penguins_translate.py`
     * `penguins_mass.csv`
     * `penguins_cytb.fasta`
 * Be sure to install the BioPython library so that this script will work. (You may have already done this in an early [Python lesson](https://eeob-biodata.github.io/2017-python-programming/02-datatypes).)
-* You will find explicit instructions and the code/comments from Dr. X in the file called `python_translate.py`.
+* You will find explicit instructions and the code/comments from Dr. X in the file called `penguins_translate.py`.
 Specific tasks are enumerated (1-11) in the script file with comments at the top as well as in the necessary places in the code.
 * Create a new Jupyter notebook in your repository. 
-    * In this notebook you will carefully annotate and execute the code already provided in `python_translate.py`. If you're unfamiliar with a bit of code, you can find lots of resources and information online. Be sure to cite information appropriately (by providing URLs and other relevant references). 
+    * In this notebook you will carefully annotate and execute the code already provided in `penguins_translate.py`. If you're unfamiliar with a bit of code, you can find lots of resources and information online. Be sure to cite information appropriately (by providing URLs and other relevant references). 
     * You must also write the missing code that is outlined by pseudocode and comments.
     * Remember to document everything very clearly!
 * Commit and push your completed Python analyses in the Jupyter notebook to your repository
