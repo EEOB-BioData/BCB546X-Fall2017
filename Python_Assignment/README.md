@@ -26,7 +26,7 @@ Additionally, Dr. X has written some comments and pseudocode that outline other 
 * You will find explicit instructions and the code/comments from Dr. X in the file called `python_translate.py`.
 Specific tasks are enumerated (1-11) in the script file with comments at the top as well as in the necessary places in the code.
 * Create a new Jupyter notebook in your repository. 
-    * In this notebook you will carefully annotate and execute the code already provided in `python_translate.py`. If you're unfamiliar with a bit of code, you can find lots of resources and information online. Be sure to cite (by providing URLs and other relevant citations) information appropriately. 
+    * In this notebook you will carefully annotate and execute the code already provided in `python_translate.py`. If you're unfamiliar with a bit of code, you can find lots of resources and information online. Be sure to cite information appropriately (by providing URLs and other relevant references). 
     * You must also write the missing code that is outlined by pseudocode and comments.
     * Remember to document everything very clearly!
 * Commit and push your completed Python analyses in the Jupyter notebook to your repository
