@@ -9,7 +9,7 @@
 Your colleague, Dr. X, has given you a partially written Python script to work with your shared data files. 
 You plan to translate cytochrome-b sequences to amino acids for each of 12 species of penguins. 
 You will then compute some simple summaries of the amino-acid molecular weight and GC content of these sequences and add these values to a DataFrame, which already contains the average adult mass of each species. 
-You will then create some plots of your data. 
+Once you have these values entered in the DataFrame, you will create some plots for data visualization. 
 In this script you will find one function and additional lines of code that are working, but not adequately documented. Since Dr. X's experience with Python is different than your own, you may find that some of the suggested functions and approaches are unfamiliar to you. However, you have agreed to thoroughly document your script in order to better understand your work.
 
 Additionally, Dr. X has written some comments and pseudocode that outline other components of the script that you agreed to complete. Since you're a conscientious scientist, you will also carefully document your own code.
