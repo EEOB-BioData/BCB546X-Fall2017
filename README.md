@@ -81,7 +81,14 @@ This week we will start working with data in Python. Please be sure to pull all 
 * Lesson 2: [Indexing, Slicing, and Subsetting DataFrames](https://eeob-biodata.github.io/2017-python-programming/04-more-dataframes/)
 * Bonus Lesson: [Reading and Writing files in Python](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_09/additional-lesson/)
 
+### Week 10
 
+Please pull the course repository before class since a new data file has been added to the `python-bcb546` folder.
+
+* Lesson 1: 
+    * Finish going over [Subsetting DataFrames](https://eeob-biodata.github.io/2017-python-programming/04-more-dataframes/)
+    * Begin [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
+* Lesson 2: [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
