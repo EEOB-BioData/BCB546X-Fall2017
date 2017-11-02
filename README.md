@@ -54,6 +54,41 @@ A copy of the course syllabus can be found at the following link: [Fall 2017 Syl
 ### Week 5
 
 * Lecture 1: Unix continued [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_04/lecture_13-Sep-MBH.html#148)]
+* [Introduction to R](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_05)
+
+### Week 6
+
+* More R ([https://eeob-biodata.github.io/R-Data-Skills/](https://eeob-biodata.github.io/R-Data-Skills))
+
+### Week 7
+
+* More R ([https://eeob-biodata.github.io/R-Data-Skills/](https://eeob-biodata.github.io/R-Data-Skills))
+* Genomic Ranges [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_07/lecture_13Oct-MBH.html)]
+
+### [Week 8](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08/)
+
+In week 8, we will start learning Python! For these lessons, you can work on your own computer. 
+Please be sure to follow the download/install instructions for python that we require for the class: [https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_08/).
+
+* [Introduction to Python](https://eeob-biodata.github.io/2017-python-programming/) (led by Dr. [Jordan Satler](https://jordandsatler.wordpress.com/))
+
+### [Week 9](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_09/)
+
+
+This week we will start working with data in Python. Please be sure to pull all the recent changes from the course git repository before class.
+
+* Lesson 1: [Working with Pandas DataFrames](https://eeob-biodata.github.io/2017-python-programming/03-starting-with-data/)
+* Lesson 2: [Indexing, Slicing, and Subsetting DataFrames](https://eeob-biodata.github.io/2017-python-programming/04-more-dataframes/)
+* Bonus Lesson: [Reading and Writing files in Python](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_09/additional-lesson/)
+
+### Week 10
+
+Please pull the course repository before class since a new data file has been added to the `python-bcb546` folder.
+
+* Lesson 1: 
+    * Finish going over [Subsetting DataFrames](https://eeob-biodata.github.io/2017-python-programming/04-more-dataframes/)
+    * Begin [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
+* Lesson 2: [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
