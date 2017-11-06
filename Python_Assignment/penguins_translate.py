@@ -6,7 +6,7 @@
 ## 1. Document Dr. X's function with comments and with markdown text in your Jupyter notebook.
 ## 2. Write a function that translates a string of nucleotides to amino acids based on Dr. X's pseudo-code suggestion.
 ## 3. Write an alternative translation function.
-## 4. Write a function that calculates the molecular of each 3 amino acid sequence.
+## 4. Write a function that calculates the molecular weight of each 3 amino acid sequence.
 ## 5. Write a function that computes the GC-content of each DNA sequence.
 
 #-- In the MAIN part of the script --#
