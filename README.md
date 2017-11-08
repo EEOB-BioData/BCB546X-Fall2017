@@ -90,5 +90,12 @@ Please pull the course repository before class since a new data file has been ad
     * Begin [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
 * Lesson 2: [Visualizing Data in Python](https://eeob-biodata.github.io/2017-python-programming/05-seaborn-viz/)
 
+### [Week 11](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_11/)
+
+* Lesson 1: BioPython Tutorial ([Iddo Friedberg](http://iddo-friedberg.org/))
+	* [Slides](https://github.com/EEOB-BioData/BCB546X-Fall2017/blob/master/Week_11/biopython_lecture_2017-11-08.pdf)
+	* [Data file](https://github.com/EEOB-BioData/BCB546X-Fall2017/blob/master/Week_11/fasta_example.fa)
+* Lesson 2: Sequence data and alignment
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
