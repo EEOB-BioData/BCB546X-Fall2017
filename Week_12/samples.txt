@@ -1,0 +1,6 @@
+zmaysA	R1	zmays-snps/data/seqs/zmaysA_R1.fastq
+zmaysA	R2	zmays-snps/data/seqs/zmaysA_R2.fastq
+zmaysB	R1	zmays-snps/data/seqs/zmaysB_R1.fastq
+zmaysB	R2	zmays-snps/data/seqs/zmaysB_R2.fastq
+zmaysC	R1	zmays-snps/data/seqs/zmaysC_R1.fastq
+zmaysC	R2	zmays-snps/data/seqs/zmaysC_R2.fastq

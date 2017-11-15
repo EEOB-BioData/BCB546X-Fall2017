@@ -1,0 +1,1 @@
+fastq_stat zmays-snps/data/seqs/zmaysB_R1.fastq

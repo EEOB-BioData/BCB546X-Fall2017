@@ -125,10 +125,6 @@ This chapter introduces the following topics related to pipelines:
 --
 	
 3. Running parallel pipelines
-	
---
-	
-4. Components of a simple makefile
 
 ---
 
@@ -349,7 +345,12 @@ Files can be selected by either using information contained within another "guid
 
 --
 
-Let's look at an example that selects files based on information in a guide file:
+Let's create some temporary files to see how this works:
+
+```
+$ mkdir -p zmays-snps/{data/seqs,stats}
+$ touch zmays-snps/data/seqs/zmays{A,B,C}_R{1,2}.fastq
+```
 
 ---
 
@@ -374,7 +375,7 @@ do
 
 	# run fastq_stat on a file, writing results to the filename we've 
 	# indicated above
-	fastq_stat $fastq_file > stats/$results_file
+	fastq_stat $fastq_file > zmays-snps/stats/$results_file
 done
 ```
 --
@@ -391,28 +392,19 @@ Here's an example:
 
 ```
 #!/bin/bash
-set -e
-set -u
-set -o pipefail
-    
-# specify the input samples file, where the third
-# column is the path to each sample FASTQ file
-sample_info=samples.txt
+    set -e
+    set -u
+    set -o pipefail
 
-# our reference
-reference=zmays_AGPv3.20.fa
-
-# create a Bash array from the first column, which are
-# sample names. Because there are duplicate sample names
-# (one for each read pair), we call uniq
-sample_names=($(cut -f 1 "$sample_info" | uniq))
-
-for sample in ${sample_names[@]}
+for fastq_file in zmays-snps/data/seqs/*.fastq
 do
-	# create an output file from the sample name
-	results_file="${sample}.sam"
-	bwa mem $reference ${sample}_R1.fastq ${sample}_R2.fastq \
-	> $results_file
+  # strip .fastq from each FASTQ file, and add suffix
+  # "-stats.txt" to create an output filename for each FASTQ file
+  results_file="$(basename $fastq_file .fastq)-stats.txt"
+
+  # run fastq_stat on a file, writing results to the filename we've 
+  # indicated above
+  fastq_stat $fastq_file > zmays-snps/stats/$results_file
 done
 ```
 ---
@@ -449,7 +441,7 @@ We can match particular patterns in files using the `-name` option of `find`:
 --
 
 ```
-$ find data/seqs -name "zmaysB*fastq"
+$ find zmays-snps -name "zmaysB*fastq"
 ```
 
 --
@@ -461,7 +453,7 @@ Other than searching recursively, can you see differences in the results of `fin
 We can also control what we match with `find` using the `type` option:
 
 ```
-$ find data/seqs -name "zmaysB*fastq" -type f
+$ find zmays-snps -name "zmaysB*fastq" -type f
 ```
 
 --
@@ -475,7 +467,13 @@ We can modify this:
 --
 
 ```
-$ find data/seqs -name "zmaysB*fastq" -or -type f
+$ find zmays-snps -name "zmaysB*fastq" -or -type f
+```
+
+--
+
+```
+$ touch zmays-snps/data/seqs/zmaysB_R1-temp.fastq
 ```
 
 --
@@ -483,11 +481,11 @@ $ find data/seqs -name "zmaysB*fastq" -or -type f
 Negation can also be useful for matching files:
 
 ```
-$ find data/seqs -type f
+$ find zmays-snps -type f
 
-$ find data/seqs -type f -not -name "zmaysC*fastq"
+$ find zmays-snps -type f -not -name "zmaysC*fastq"
 
-$ find data/seqs -type f -not -name "zmaysC*fastq" -not -name "*-temp*"
+$ find zmays-snps -type f -not -name "zmaysC*fastq" -not -name "*-temp*"
 ```
 ---
 
@@ -495,17 +493,10 @@ Once we've matched a file, we can pass it along to a program using `xargs`
 
 --
 
-Let's create some temporary files that we'll then want to remove to see how this works:
-
-```
-$ touch data/seqs/zmays{A,C}_R{1,2}-temp.fastq
-```
---
-
 we can match them using `find`:
 
 ```
-find . -name "*-temp.fastq"
+find zmays-snps -name "*-temp.fastq"
 ```
 --
 
@@ -516,7 +507,7 @@ But can you pipe this directly to `rm`?
 Here's where `xargs` comes in handy:
 
 ```
-find . -name "*-temp.fastq" | xargs rm
+find zmays-snps -name "*-temp.fastq" | xargs rm
 ```
 
 --
@@ -526,7 +517,7 @@ And finally with `xargs` you can launch multiple processes in parallel:
 --
 
 ```
-find . -name "fastq" -type f | xargs -P 6 fastq_stat
+find zmays-snps -name "fastq" -type f | xargs -P 6 fastq_stat
 ```
 
 
