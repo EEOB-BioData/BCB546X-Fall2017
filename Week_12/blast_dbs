@@ -7,28 +7,18 @@ path="/research/all2all"
 dbsize=206159193
 evalue=0.00001
 
-# a list of species is the only argument
-# get the species list and ignore commented species
-
 species=($(grep -v ";" $1))
 
-
-# loop over each pair of taxa
 for taxonA in ${species[@]}
 do
-	for taxonB in ${species[@]}
-	do
-		if [ $taxonA != $taxonB ] && [ ! -f $path/blast/$taxonA-$taxonB.blast ]
-		then
-			# use cat to pipe the sequence data file into blastp
-			cat $path/filtered/${taxonA}.filtered | \
-			
-			# use GNU parallel to split the input file into separate chunks
-			parallel --jobs 12 --block 100k --recstart '>' \
-		
-			# call blast on each chunk
-			--pipe blastp -evalue $evalue -outfmt 6 -seg yes -db $taxonB -dbsize $dbsize -max_hsps 100000 -max_target_seqs 100000 -query - \
-			> $path/blast/$taxonA-$taxonB.blast
-		fi
-	done
+    for taxonB in ${species[@]}
+    do
+        if [ $taxonA != $taxonB ] && [ ! -f $path/blast/$taxonA-$taxonB.blast ]
+        then
+		cat $path/filtered/$taxonA.filtered | \
+		parallel --jobs 12 --block 100k --recstart '>' \
+		--pipe blastp -evalue $evalue -outfmt 6 -seg yes -db $taxonB -dbsize $dbsize -max_hsps 100000 -max_target_seqs 100000 -query -\
+		> $path/blast/$taxonA-$taxonB.blast
+        fi
+    done
 done
