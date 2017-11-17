@@ -15,7 +15,7 @@ The research project you write about for this assignment does not *have* to be y
 
 Be sure to follow the format requirements outlined below.
 
-##### Submit both files as a SINGLE PDF to the data management plan assignment on Blackboard
+#### Submit both files as a SINGLE PDF to the data management plan assignment on Blackboard
 
 ### Suggestions and Guides
 
