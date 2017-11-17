@@ -10,4 +10,7 @@ Guest lesson by Dr. Walker Pett
 
 ## Data Management Plans & LaTeX
 
-Slides [source TeX](https://www.overleaf.com/read/tqprfkkqntjm)
+Slides 
+
+* [source TeX](https://www.overleaf.com/read/tqprfkkqntjm)
+* [PDF](https://github.com/EEOB-BioData/BCB546X-Fall2017/blob/master/Week_12/lecture_17Nov-TAH.pdf)

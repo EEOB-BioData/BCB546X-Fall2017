@@ -100,7 +100,7 @@ Please pull the course repository before class since a new data file has been ad
 ### [Week 12](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_12/)
 
 * Lesson 1: [Bash Scripting](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_12/lecture_15Nov-Pett.html) (guest lecture by Dr. Walker Pett)
-* Lesson 2: Data Management Plans and LaTeX ([slides source](https://www.overleaf.com/read/tqprfkkqntjm) and [slides PDF]())
+* Lesson 2: Data Management Plans and LaTeX ([slides source](https://www.overleaf.com/read/tqprfkkqntjm) and [slides PDF](https://github.com/EEOB-BioData/BCB546X-Fall2017/blob/master/Week_12/lecture_17Nov-TAH.pdf))
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
