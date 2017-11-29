@@ -1,0 +1,1500 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_228705</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>891</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_228705</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>891</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1105484513|ref|XM_002284686.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera cold-regulated 413 plasma membrane protein 2 (LOC100248690), mRNA</Hit_def>
+  <Hit_accession>XM_002284686</Hit_accession>
+  <Hit_len>891</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1608.09</Hsp_bit-score>
+      <Hsp_score>1782</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>891</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>891</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>891</Hsp_identity>
+      <Hsp_positive>891</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>891</Hsp_align-len>
+      <Hsp_qseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCTTCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACACTCTGCGATTTGTGGATCATTTATCGTATGCAATCTCAAATATCTTGTACCATTGTTCCTGTTTGTATCATTATAGTTTGCTTGATTGACACTGTCATTTGGAGAACCCATGTTTTATTAAAATTATATGTATTAAGCAACCTTCAAGAGTTATATTAAATTTGCACA</Hsp_qseq>
+      <Hsp_hseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCTTCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACACTCTGCGATTTGTGGATCATTTATCGTATGCAATCTCAAATATCTTGTACCATTGTTCCTGTTTGTATCATTATAGTTTGCTTGATTGACACTGTCATTTGGAGAACCCATGTTTTATTAAAATTATATGTATTAAGCAACCTTCAAGAGTTATATTAAATTTGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123704572|emb|AM483681.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X045699.9, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM483681</Hit_accession>
+  <Hit_len>34288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>462</Hsp_query-from>
+      <Hsp_query-to>891</Hsp_query-to>
+      <Hsp_hit-from>9140</Hsp_hit-from>
+      <Hsp_hit-to>9598</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>459</Hsp_align-len>
+      <Hsp_qseq>CAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACACTCTGCGATTTGTGGATCATTTATCGTATGCAATCTCAAATATCTTGTAC--------------------------CATTGTTCCTGTTTGTATCATTATAGTTTGCTTGATTGACACTGTCATTTGGAGAACCCATGTTTTATTAAAATTATATGTATTAAGCAACCTTCAAGA---GTTATATTAAATTTGCACA</Hsp_qseq>
+      <Hsp_hseq>CAGATTGGCTGGAAATGCCGGCAGCTTTGATTCTTCTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACACCATTGGATTAATCATTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTGACTTCCTATAGGCACACTCKGCGATTTGTGGTTCATTTATCGTATGCAATCTCAAAWATCTTGTACCATTAATTTGTCAAGACCTACATATTCATTGTTCCTGTTTGTATCATTATAGTTTGCTTGAYTGAAACTGTCATTTGGAGAACCTAAGTTTTATTAAAATCRTATGTATTAAGCAACCTTCAAGAGTTGTTATATTACATTTGCACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||                          ||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||| | |||||||||||||  |||||||||||||||||||||||   ||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>4.607e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>6752</Hsp_hit-from>
+      <Hsp_hit-to>7040</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCTTCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTAT</Hsp_qseq>
+      <Hsp_hseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCATCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTWCATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>196.05</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.32577e-45</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>8467</Hsp_hit-from>
+      <Hsp_hit-to>8574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>TTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAG</Hsp_qseq>
+      <Hsp_hseq>TTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>129.325</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.61655e-25</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>8655</Hsp_hit-from>
+      <Hsp_hit-to>8728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>CAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCCGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1217007653|ref|XM_021787586.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis cold-regulated 413 plasma membrane protein 2-like (LOC110637472), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_021787586</Hit_accession>
+  <Hit_len>1017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.39818e-151</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>717</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>488</Hsp_identity>
+      <Hsp_positive>488</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>612</Hsp_align-len>
+      <Hsp_qseq>GAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATA</Hsp_qseq>
+      <Hsp_hseq>GAAAATGGGAAAGAAAAGCTACCTGGCAATGAGGACAGATCAAGAAACCAGTGACTCGATTGTTTCAGATATCAAAGACTTGTCCGAGGCTGCTAAGAAGCTAGCCAATCACGCCATCAAGCTTGGTGGGTTGGGTTTTGGGACCTCTTTTCTTGAATGGCTTGCTTCTTTTGCTGCAATTTATTTGTTGATCTTGGATCGAACAAACTGGAGAACAGACATACTTACTAGCTTATTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATACTGTTCAGCTTTTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTATATTGCGGCTTTTCTTCCCAAGACGTTTCCCAGATTGGCTGGAAATGCCAGGTGCTCTGATTCTTCTGATAGTAGTGGCTCCCAGTTTGTTTGCAAGCACGTTAAGGAGTAGCTGGGTAGGTGTGGTAATATGCCTTGTCATTGCTTGTTATTTGCTTCAAGAACATATCCGGACATCTGGTGGGTTCAGAAACTCATTTACAAAAGCTCACGGCATATCAAATTCCATTGGCATAATCCTTCTGTTTGTTTATCCTGCCTGGGCTTTGGTAATTGATTTCCTTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||| || ||  | ||| |||| |||||||| ||    || || | ||| | |||   ||| ||| ||| |||| |     | |||||||||||||| |||| ||| ||||| |||||||||||  |||| ||||| ||  | |||||||| ||| | |||||||||||||| |||||||| || ||||||||||||||||||||||  ||| |||| |||||     |  ||||||||||||||||||||||||||||||||||| | |||| ||||||||| ||  ||||||||||||||||||||||| |||||||  |  |||| || |||||||||| ||||||||||||||||||||||||||| |  ||| |||||||| | ||||| ||||||||||| |||||| | |||||  ||||| ||  |||| | ||  | |||||||| ||||  ||||  ||||||||||| || ||||| ||| || ||||||||||||||||||| || |||||| |    || ||||||||||| || |||||  ||||||||||| | || ||||||| ||||||| ||||| || | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1217007651|ref|XM_021787585.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis cold-regulated 413 plasma membrane protein 2-like (LOC110637472), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021787585</Hit_accession>
+  <Hit_len>1037</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.39818e-151</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>717</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>488</Hsp_identity>
+      <Hsp_positive>488</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>612</Hsp_align-len>
+      <Hsp_qseq>GAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATA</Hsp_qseq>
+      <Hsp_hseq>GAAAATGGGAAAGAAAAGCTACCTGGCAATGAGGACAGATCAAGAAACCAGTGACTCGATTGTTTCAGATATCAAAGACTTGTCCGAGGCTGCTAAGAAGCTAGCCAATCACGCCATCAAGCTTGGTGGGTTGGGTTTTGGGACCTCTTTTCTTGAATGGCTTGCTTCTTTTGCTGCAATTTATTTGTTGATCTTGGATCGAACAAACTGGAGAACAGACATACTTACTAGCTTATTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATACTGTTCAGCTTTTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTATATTGCGGCTTTTCTTCCCAAGACGTTTCCCAGATTGGCTGGAAATGCCAGGTGCTCTGATTCTTCTGATAGTAGTGGCTCCCAGTTTGTTTGCAAGCACGTTAAGGAGTAGCTGGGTAGGTGTGGTAATATGCCTTGTCATTGCTTGTTATTTGCTTCAAGAACATATCCGGACATCTGGTGGGTTCAGAAACTCATTTACAAAAGCTCACGGCATATCAAATTCCATTGGCATAATCCTTCTGTTTGTTTATCCTGCCTGGGCTTTGGTAATTGATTTCCTTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||| || ||  | ||| |||| |||||||| ||    || || | ||| | |||   ||| ||| ||| |||| |     | |||||||||||||| |||| ||| ||||| |||||||||||  |||| ||||| ||  | |||||||| ||| | |||||||||||||| |||||||| || ||||||||||||||||||||||  ||| |||| |||||     |  ||||||||||||||||||||||||||||||||||| | |||| ||||||||| ||  ||||||||||||||||||||||| |||||||  |  |||| || |||||||||| ||||||||||||||||||||||||||| |  ||| |||||||| | ||||| ||||||||||| |||||| | |||||  ||||| ||  |||| | ||  | |||||||| ||||  ||||  ||||||||||| || ||||| ||| || ||||||||||||||||||| || |||||| |    || ||||||||||| || |||||  ||||||||||| | || ||||||| ||||||| ||||| || | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1217007649|ref|XM_021787584.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis cold-regulated 413 plasma membrane protein 2-like (LOC110637472), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_021787584</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.23318e-150</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>717</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>487</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>AAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATA</Hsp_qseq>
+      <Hsp_hseq>AAAATGGGAAAGAAAAGCTACCTGGCAATGAGGACAGATCAAGAAACCAGTGACTCGATTGTTTCAGATATCAAAGACTTGTCCGAGGCTGCTAAGAAGCTAGCCAATCACGCCATCAAGCTTGGTGGGTTGGGTTTTGGGACCTCTTTTCTTGAATGGCTTGCTTCTTTTGCTGCAATTTATTTGTTGATCTTGGATCGAACAAACTGGAGAACAGACATACTTACTAGCTTATTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATACTGTTCAGCTTTTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTATATTGCGGCTTTTCTTCCCAAGACGTTTCCCAGATTGGCTGGAAATGCCAGGTGCTCTGATTCTTCTGATAGTAGTGGCTCCCAGTTTGTTTGCAAGCACGTTAAGGAGTAGCTGGGTAGGTGTGGTAATATGCCTTGTCATTGCTTGTTATTTGCTTCAAGAACATATCCGGACATCTGGTGGGTTCAGAAACTCATTTACAAAAGCTCACGGCATATCAAATTCCATTGGCATAATCCTTCTGTTTGTTTATCCTGCCTGGGCTTTGGTAATTGATTTCCTTTA</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||  | ||| |||| |||||||| ||    || || | ||| | |||   ||| ||| ||| |||| |     | |||||||||||||| |||| ||| ||||| |||||||||||  |||| ||||| ||  | |||||||| ||| | |||||||||||||| |||||||| || ||||||||||||||||||||||  ||| |||| |||||     |  ||||||||||||||||||||||||||||||||||| | |||| ||||||||| ||  ||||||||||||||||||||||| |||||||  |  |||| || |||||||||| ||||||||||||||||||||||||||| |  ||| |||||||| | ||||| ||||||||||| |||||| | |||||  ||||| ||  |||| | ||  | |||||||| ||||  ||||  ||||||||||| || ||||| ||| || ||||||||||||||||||| || |||||| |    || ||||||||||| || |||||  ||||||||||| | || ||||||| ||||||| ||||| || | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1204934028|ref|XM_021444654.1|</Hit_id>
+  <Hit_def>PREDICTED: Herrania umbratica cold-regulated 413 plasma membrane protein 1 (LOC110428735), mRNA</Hit_def>
+  <Hit_accession>XM_021444654</Hit_accession>
+  <Hit_len>1069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.23318e-150</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>499</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>628</Hsp_align-len>
+      <Hsp_qseq>GAGGAGATTGAA----GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAG-GCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GAGGAGAAGGAAAAATGATGGGGAAGAAGAGTGTTTTGGCAATGAGGGCTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCCAAGAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGATTTGGGACTTCAATCCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCCTGGACCGAACAAATTGGAAAACAAATATTCTTACAGGATTATTAATCCCATATATCTTCTTCAGTCTTCCTTCATTATTGTTCAACCTCTTCAGGGGTGAGGTTGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTACCTGCTGCTTTGATTCTTCTAATAGTGGTGGCTCCTAGCTTATTTTCAAGCACCATAAGAAACGACTGGATTGGTCTGGTAATATGCCTTGCCATTGCTTGCTACCTGCTTCAGGAACACATCAGAGCATCTGGTGGGTTTCGAAATTCTTTCAC-CAAAGCACATGGAATATCAAACACGGTTGGCATAATTCTTCTGTTGGTCTACCCCGCTTGGGCTTTGGTAACTGACATCCTATAGG</Hsp_hseq>
+      <Hsp_midline>|||||||  |||    ||||||||| ||| ||   ||||| |||||| ||||    ||  | | |||| |||||||||||||| ||| ||| || |    |||||| ||||||||||| | ||||||||| ||| | |||  | |||| ||||| ||| || | ||||| ||| | ||||| |||||||| ||||||||||| ||| |||| |||||||| ||||| ||||| || ||||| | | |  ||||||| || || ||||| |||||||||||| |||| |||||| | ||||| ||| ||||||||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| | ||||| |||||||||||| | |||||||||||||| ||||| ||||| ||||| |||||    ||||||||||| || |||||||| ||||| ||||  || ||  |||| |||||||||||||| ||||||||||||||  ||||||| || || || ||  ||||| ||||||||| |  ||||  |||| |||||| ||||||| || |  |||||| |||||  | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1063468601|ref|XM_007041315.2|</Hit_id>
+  <Hit_def>PREDICTED: Theobroma cacao cold-regulated 413 plasma membrane protein 1 (LOC18607254), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007041315</Hit_accession>
+  <Hit_len>1043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.69</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>9.49574e-149</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>628</Hsp_align-len>
+      <Hsp_qseq>GAGGAGATTGAA----GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAG-GCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GAGGAGAAGGAAAAATGATGGGGAAGAAGAGTTTTTTGGCAATGAGGGCTGAGCAGGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCCAAGAAGCTTGCTAATCATGCTATCAAGTTGGGTTCTTTGGGATTTGGGACTTCAATTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATCTATTGATCCTGGACCGAACAAATTGGAAAACAAATATTCTTACAGGATTATTAATCCCATATATCTTCTTGAGTCTTCCTTCATTATTGTTCAACCTCTTCAGGGGAGAGGTTGGAAAATGGATCGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCTGCTGCTTTGATTCTTCTAATAGTGGTGGCTCCTAGCTTATTTTCAAGCACCATAAGAAACGACTGGATTGGTGTGGTAATATGCCTTGCCATTGCTTGCTACCTGCTTCAGGAACACATCAGAGCATCGGGTGGGTTTCGAAATTCTTTTAC-CAAAGCGCATGGAATATCAAACACGGTTGGCATAATTCTTCTGTTGGTCTACCCGGCGTGGGCTTTGGTAACTGACATCCTATAGG</Hsp_hseq>
+      <Hsp_midline>|||||||  |||    ||||||||| ||| |||  ||||| |||||| ||||    ||  | | |||| |||||||||||||| ||| ||| || |    |||||| ||||||||||| | |||||| || ||| | |||  | |||| ||||| ||| || ||||||| ||| | ||||| |||||||| |||||| |||| ||| |||| |||||||| ||||| ||||| || ||||| | | |  ||||||| || || ||||| |||||||||||| |||| |||||| | ||||| ||  |||||||||||||||| |||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| ||||||| |||||||||||| | |||||||||||||| ||||| ||||| ||||| |||||    |||||||||||  | |||||||| ||||| ||||  || ||  |||| |||||||||||||| ||||| ||||||||  ||||||| ||||| || || |||||| ||||||||| |  ||||  |||| |||||| ||||||| || |  |||||| |||||  | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1063468599|ref|XM_018115056.1|</Hit_id>
+  <Hit_def>PREDICTED: Theobroma cacao cold-regulated 413 plasma membrane protein 1 (LOC18607254), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_018115056</Hit_accession>
+  <Hit_len>1064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.69</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>9.49574e-149</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>628</Hsp_align-len>
+      <Hsp_qseq>GAGGAGATTGAA----GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAG-GCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GAGGAGAAGGAAAAATGATGGGGAAGAAGAGTTTTTTGGCAATGAGGGCTGAGCAGGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCCAAGAAGCTTGCTAATCATGCTATCAAGTTGGGTTCTTTGGGATTTGGGACTTCAATTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATCTATTGATCCTGGACCGAACAAATTGGAAAACAAATATTCTTACAGGATTATTAATCCCATATATCTTCTTGAGTCTTCCTTCATTATTGTTCAACCTCTTCAGGGGAGAGGTTGGAAAATGGATCGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCTGCTGCTTTGATTCTTCTAATAGTGGTGGCTCCTAGCTTATTTTCAAGCACCATAAGAAACGACTGGATTGGTGTGGTAATATGCCTTGCCATTGCTTGCTACCTGCTTCAGGAACACATCAGAGCATCGGGTGGGTTTCGAAATTCTTTTAC-CAAAGCGCATGGAATATCAAACACGGTTGGCATAATTCTTCTGTTGGTCTACCCGGCGTGGGCTTTGGTAACTGACATCCTATAGG</Hsp_hseq>
+      <Hsp_midline>|||||||  |||    ||||||||| ||| |||  ||||| |||||| ||||    ||  | | |||| |||||||||||||| ||| ||| || |    |||||| ||||||||||| | |||||| || ||| | |||  | |||| ||||| ||| || ||||||| ||| | ||||| |||||||| |||||| |||| ||| |||| |||||||| ||||| ||||| || ||||| | | |  ||||||| || || ||||| |||||||||||| |||| |||||| | ||||| ||  |||||||||||||||| |||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| ||||||| |||||||||||| | |||||||||||||| ||||| ||||| ||||| |||||    |||||||||||  | |||||||| ||||| ||||  || ||  |||| |||||||||||||| ||||| ||||||||  ||||||| ||||| || || |||||| ||||||||| |  ||||  |||| |||||| ||||||| || |  |||||| |||||  | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1269953414|ref|XM_022870894.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282690), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_022870894</Hit_accession>
+  <Hit_len>1996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>589</Hsp_hit-from>
+      <Hsp_hit-to>1199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1269953413|ref|XR_002689266.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282690), transcript variant X4, misc_RNA</Hit_def>
+  <Hit_accession>XR_002689266</Hit_accession>
+  <Hit_len>2229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>589</Hsp_hit-from>
+      <Hsp_hit-to>1199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1269953412|ref|XR_002689265.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282690), transcript variant X3, misc_RNA</Hit_def>
+  <Hit_accession>XR_002689265</Hit_accession>
+  <Hit_len>2093</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>589</Hsp_hit-from>
+      <Hsp_hit-to>1199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1269953411|ref|XR_002689264.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282690), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_002689264</Hit_accession>
+  <Hit_len>2407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>589</Hsp_hit-from>
+      <Hsp_hit-to>1199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1269953410|ref|XR_002689262.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282690), transcript variant X1, misc_RNA</Hit_def>
+  <Hit_accession>XR_002689262</Hit_accession>
+  <Hit_len>2356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>589</Hsp_hit-from>
+      <Hsp_hit-to>1199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1269952460|ref|XM_022870374.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2-like (LOC111282334), mRNA</Hit_def>
+  <Hit_accession>XM_022870374</Hit_accession>
+  <Hit_len>1742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.91892e-146</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>1143</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGACTTATTTGGCAATGAAGACTGAGCAAGAAGCAAGTGATCTGATCAGTTCTGATTTCAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCTAATCATGCCATCAAGTTGGGTTCTTTGGGACTTGGGACTTCATTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATTTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACAGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCATATTGTTCAGCATCTTCAGTGGAGAGGTCGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCAGATTGGCTGGAACTGCCCGCTGCTTTGATTCTTATAATAGTGGTGGCTCCTAGCTTATTCTCAAGCACTATAAGAAGCAGCTGGGTTGGTGAGGTAATATGCCTTGCCATTGCTTGTTACCTACTTCAGGAACACATCAGGGCATCAGGTGGGTTTCGGAATTCTTTCACAAAAGCGCATGGGATATCCAACACAATTGGCATAATTCTTCTGCTAGTCTACCCTGCTTGGGCTTTGGCAATAGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || |||  ||| ||||| |||| ||||||    ||  | | |||| |||||||||||||| ||| ||| || |    ||||||||| |||||||| | ||||||||| ||| | |||  | ||||  |||| ||| |||||||||| ||| | ||||| |||||||| ||||||||||| |||||||| |||||||| ||||| ||||| || ||||| |||||  ||||||| || || ||||| ||||||||||| ||||| |||| | | ||||||||  |||| |||||||||||||||||| |||| || ||  ||||| | |||||||| | |||||||||||||||||||||| |||| || |||||||||||| | |||||||||||||| ||||| || || |||||||||||  |   |||| ||||    |||||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  | ||||| || ||| |   |||||| ||||| ||| | |||||  |||| |||||||| ||||| ||||  |||||| ||| | |  || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|118483999|gb|EF145756.1|</Hit_id>
+  <Hit_def>Populus trichocarpa clone WS0113_D05 unknown mRNA</Hit_def>
+  <Hit_accession>EF145756</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.71687e-145</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>487</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>614</Hsp_align-len>
+      <Hsp_qseq>GAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GAAGAAAGGTTACTTGGCGATGAGGACGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTCAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATTCTTACTGGACTATTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGTTCAGGGGACAGATTGGAAGATGGATCGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGTGGTGGCTCCCAGTTTGTTTGCGAGCACGATAAGGAATGATTGGATTGGTGTGGTCATATGTTTAGTCATTGCATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCTAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCAATTGTGCTTTATATCCTTTAAGCACA</Hsp_hseq>
+      <Hsp_midline>||| || |||||||||||||||||||| ||    || |   | | ||  ||||| | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||| | ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| | ||||| || ||| |||||| |||||| |||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | ||||||||||||||||| |||||| ||||||| ||||||  ||| ||||||||  | || |||||| | |  ||||  ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||||| ||||||  | || ||| |  |||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|160950966|emb|CU229055.1|</Hit_id>
+  <Hit_def>Populus EST from severe drought-stressed leaves</Hit_def>
+  <Hit_accession>CU229055</Hit_accession>
+  <Hit_len>672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.09158e-144</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>618</Hsp_align-len>
+      <Hsp_qseq>GGGAAAA--AGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAAGAAAGGTTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGCTTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGGTTAGGATTTGGTACCACTTTTCTTGAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATGCTTACTGGACTCTTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGCTCAGGGGAGAGGTTGGAAAATGGATTGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGCGGTGGCTCCCAGTTTGTTTGCGAACACGATAAGGAATGATTGGATTGGTTTGGTCATATGTTTAGCCATTGGATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCAAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCAATTGTGCTTGATATCCTTTGAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||  | |||||||||||||||||||  ||    || |   | | ||  ||| | | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||||| ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| |  |||| ||  ||||||||||||||||||||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | |||| |||||||||||| |||||| ||| ||| ||||||  ||| ||||||||  | || |||||| | || ||||| ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||||| ||||||  | || ||| |  |||| |  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1173795212|ref|XM_012213928.2|</Hit_id>
+  <Hit_def>PREDICTED: Jatropha curcas cold-regulated 413 plasma membrane protein 1 (LOC105631756), mRNA</Hit_def>
+  <Hit_accession>XM_012213928</Hit_accession>
+  <Hit_len>1206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>522.46</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>7.30032e-144</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>349</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>436</Hsp_identity>
+      <Hsp_positive>436</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>534</Hsp_align-len>
+      <Hsp_qseq>AATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACAC</Hsp_qseq>
+      <Hsp_hseq>AATGCTGCTAAAAAGCTAGCCAATCATGCAATTAGGCTTGGTGGGTTAGGTTTTGGGACCACTTTTCTTGAATGGGTTGCTTCTTTTGCTGCAATTTATTTGTTGATCTTGGATCGAACAAACTGGAGGACAAACATACTTACTGGCTTGTTAATTCCATACATTTTCTTTAGTCTTCCTTCATTACTATTCAGCCTCTTCAGAGGTGAGTTTGGAAAATGGATTGCTTTCATTGCTGTTATATTGCGCCTTTTCTTCCCAAGACGTTTTCCAGATTGGCTGGAAATGCCAGCAGCTCTGATTCTTCTGATTGTGGTGGCTCCCAGTTTGTTCTCAAGCACCATAAGAGATAGCTGGATAGGTGTGGCGATATGCCTTGTCATTGCTTGCTATTTGCTTCAAGAACATATCCGGGCATCTGGAGGTTTTAGAAACTCCTTTACGAAAGCACATGGCATATCAAACACCATTGGCATAGTCCTTTTGTTTGTTTATCCTGCCTGGGCATTGGTACTTCATTTCCTTTAGGCAGAC</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| |||| |||||| |||| |||||||||  | || ||||| || || |||||||| ||| | |||||||||||||| |||||||| || |||||||||||||||||||||| ||||||||| ||||| |   |  |||| || |||||||||||||||||||||||| || |||||| | | ||||| ||| || ||||||||||||||||||| ||||||||  |  ||||||| |||||||||| |||||| |||||||||||||||||||| |||||| |||||||| | || |||||||||||||| ||||| || ||||| ||||| | |  |||||| ||  | |  ||||| ||||  ||||  || |||||||| || ||||| ||| |||||||||| || || ||||| ||||||||  |    ||||||||||||||| | |||||  || ||||| || | || ||||||| ||||||  |||||||||| ||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|566166734|ref|XM_002305370.2|</Hit_id>
+  <Hit_def>Populus trichocarpa hypothetical protein (POPTR_0004s15610g) mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_002305370</Hit_accession>
+  <Hit_len>915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.54806e-143</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>620</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GATGGAAAAGAAAGGGTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTCAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATTCTTACTGGACTATTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGTTCAGGGGACAGATTGGAAGATGGATCGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGTGGTGGCTCCCAGTTTGTTTGCGAGCACGATAAGGAATGATTGGATTGGTGTGGTCATATGTTTAGTCATTGCATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCTAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCAGTTGTGCTTTATATCCTTTAAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||  || || || ||||||||||||||||  ||    || |   | | ||  ||||| | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||| | ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| | ||||| || ||| |||||| |||||| |||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | ||||||||||||||||| |||||| ||||||| ||||||  ||| ||||||||  | || |||||| | |  ||||  ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||||| ||||||  | || ||| |  |||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|118488746|gb|EF148204.1|</Hit_id>
+  <Hit_def>Populus trichocarpa clone WS0128_L02 unknown mRNA</Hit_def>
+  <Hit_accession>EF148204</Hit_accession>
+  <Hit_len>878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.54806e-143</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>620</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GATGGAAAAGAAAGGGTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTCAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATTCTTACTGGACTATTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGTTCAGGGGACAGATTGGAAGATGGATCGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGTGGTGGCTCCCAGTTTGTTTGCGAGCACGATAAGGAATGATTGGATTGGTGTGGTCATATGTTTAGTCATTGCATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCTAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCAGTTGTGCTTTATATCCTTTAAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||  || || || ||||||||||||||||  ||    || |   | | ||  ||||| | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||| | ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| | ||||| || ||| |||||| |||||| |||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | ||||||||||||||||| |||||| ||||||| ||||||  ||| ||||||||  | || |||||| | |  ||||  ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||||| ||||||  | || ||| |  |||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|118484281|gb|EF145905.1|</Hit_id>
+  <Hit_def>Populus trichocarpa clone WS0114_D02 unknown mRNA</Hit_def>
+  <Hit_accession>EF145905</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.54806e-143</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>620</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GATGGAAAAGAAAGGGTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTCAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATTCTTACTGGACTATTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGTTCAGGGGACAGATTGGAAGATGGATCGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGTGGTGGCTCCCAGTTTGTTTGCGAGCACGATAAGGAATGATTGGATTGGTGTGGTCATATGTTTAGTCATTGCATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCTAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCAGTTGTGCTTTATATCCTTTAAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||  || || || ||||||||||||||||  ||    || |   | | ||  ||||| | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||| | ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| | ||||| || ||| |||||| |||||| |||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | ||||||||||||||||| |||||| ||||||| ||||||  ||| ||||||||  | || |||||| | |  ||||  ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||||| ||||||  | || ||| |  |||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1216314789|ref|XM_021744088.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta cold-regulated 413 plasma membrane protein 2-like (LOC110605487), mRNA</Hit_def>
+  <Hit_accession>XM_021744088</Hit_accession>
+  <Hit_len>1081</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.853</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>8.89361e-143</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>717</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>482</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>612</Hsp_align-len>
+      <Hsp_qseq>GAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATA</Hsp_qseq>
+      <Hsp_hseq>GAAAATGGGGAAGAAAAGCTACCTGGCAATGAGGACGGAGCAAGAAACAAGTGACGTGATTGTTTCAGACATCAAAGACTTGTCCAAGGCTGCTAAGAAGCTAGCCAATCACGCCATCAAGCTTGTTGGCTTGGGTTTCGGGACCTCTTTTCTTGAATGGCTTGCTTCTTTTGCTGCAATTTACTTGTTGATCTTGGATCGAACGAACTGGAGAACAAACATCCTTACTGGCTTATTAATCCCTTACATTTTCTTGAGTCTTCCTTCAATTCTCTTCAGCTTGTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTATATTACGCCTTTTCTTCCCAAGACGTTTCCCAGATTGGCTGGAAATGCCTGGTGCTCTGATTCTTCTGATAGTAGTTGCTCCCAGTTTGTTTGCGAGCACGTTAAGGAGTAGCTGGGTAGGCGTGTTGATATGCCTTGTAATTGCTTGTTATTTGCTCCAAGAACATATCCGAGCATCTGGTGGTTTCAGAAACTCATTTACGAAAGCTCATGGAATATCCAACACCATTGGTATAATCCTTCTGTTTGTTTATCCTGCCTGGGCATTGGTAATTGATTTCCTTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||  | ||| |||| |||||||| ||    || || | |||  ||||   ||| ||  ||| |||| |    || |||||||||||||| |||| ||| ||||| ||||||| |||  |||| || || ||  | |||||||| ||| | |||||||||||||| ||||| || || |||||||||||||| |||||||  |||||||||||||| |   |  ||||||||||||||||||| ||||||||||||||  | |||| ||| ||||| ||  ||||||||||||||||||||||| |||||||  |  | ||||| |||||||||| |||||||||||||||||||||||||||||  ||| |||||||| | ||||| || |||||||| |||||| |||||||  ||||| ||  |||| | ||| |  | ||||| |||| |||||  ||||||||||| || ||||| ||| | ||||||||||| |||||||| || |||||  |    ||||| ||||| ||| | |||||  ||||||||||| | || ||||||| ||||||  ||||| || | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|743794186|ref|XM_011001250.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica cold-regulated 413 plasma membrane protein 1-like (LOC105107354), mRNA</Hit_def>
+  <Hit_accession>XM_011001250</Hit_accession>
+  <Hit_len>1028</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.246</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.08346e-141</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>491</Hsp_identity>
+      <Hsp_positive>491</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>625</Hsp_align-len>
+      <Hsp_qseq>AAGATGGGGAAAAAGGGTTACTTGGCGATGAGGA-----CTGACACTG-ATACTA-CTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACAC</Hsp_qseq>
+      <Hsp_hseq>AAGATGGGAAAGAAAAGTTACTTGGCGATGAGGAGGGGTCAGGGAATGGAGAGTAGCTTGTTTGCT----TCTGATTTTCAAGACTTGACTAATGCTGCTAAGAGGCTAGCTAATCATGCTGTCAAGCTTGGTGGGTTAGGGTTTGGTACCACTTTTCTTGAATGGATCGCTGCTTTTGCTGCTATTTATCTACTGATCTTGGATCGAACGAACTGGAAAACCAACATTCTTACTGGACTATTAATCCCTTACATTTTCTTTACTCTTCCTTCAATATTGTTCAGCCTGCTCAGAGGAGATGTTGGAAAATGGATCGCTTTCGTTGCTGTCATTTTGCGTCTTTTCTTCCCAAAACGTTTCCCAGATTGGCTTGAAATGCCTGGTGCTTTGATTCTTCTAATAGTGGTGGCTCCTAGTTTGTTTACAAGCACGATAAGGAATAACTGGATTGGTGTAGTCATATGTCTAGCCATTGCATGTTATTTGCTGCAAGAACACATCCGAGCATCGGGTGGGTTTAGAAACTCCTTCACAAAAGCACATGGCATATCCAACACTGTTGGCATCATCCTTCTGTTTGTTTATCCTGCCTGGGCATTGCTGATTGATTTGCTTTAAGCACAC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||  ||||||||||||||||||     | |  | || | | || ||  |||| |    |||||| |   |||| |   |||||||||||||| ||| || | ||||||  | |||||||||||  | || ||||| || || |||||||| ||| | ||| |||||||||| |||||| || | |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||||||||||||||||| ||||||||||||||| |||| | |  |||| ||  | |||||||||||||| |||||  |||||||  |  |||| || ||||||||||||||||||||||||||||| ||||||||||  |||||||||||| | |||||||||||||| || |||||| | ||||| ||||||  | ||||||||||  | || |||||||| || ||||  |||||||||||||| ||||||||| | ||||| |||||||| ||||| ||||| ||| |    ||||||||||| ||| || ||||  | ||||||||| | || ||||||| ||||||  || |  || | || || || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|566187445|ref|XM_002313788.2|</Hit_id>
+  <Hit_def>Populus trichocarpa hypothetical protein (POPTR_0009s11290g) mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_002313788</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.246</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.08346e-141</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>732</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>488</Hsp_identity>
+      <Hsp_positive>488</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>621</Hsp_align-len>
+      <Hsp_qseq>AAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGA-CACTGATACTACTGAT--TTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACAC</Hsp_qseq>
+      <Hsp_hseq>AAGATGGGAAAGAAAAGTTACTTGGCGATGAGGAGGGATCAGGGAATGGAGAGTAGCTTGCTTGCTTCTGATTTTCAAGACTTGACTAATGCTGCTAAGAAGCTAGCTAATCATGCTGTCAAGCTTGGTGGGTTAGGGTTTGGTACCACTTTTCTTGAATGGATCGCTGCTTTTGCTGCTATTTATCTACTGATCTTGGATCGAACGAACTGGAAAACCAACATTCTTACTGGTCTATTAATCCCTTACATTTTCTTTACTCTTCCTTCAATATTGTTCAGCCTGCTCAGAGGAGATGTTGGAAAATGGATCGCTTTCGTTGCTGTTATATTGCGTCTTTTCTTCCCAAAACGTTTCCCAGATTGGCTTGAAATGCCTGGTGCTTTGATTCTTCTAATAGTGGTGGCTCCTAGTTTGTTTGCAAGCACGATAAGGAATAACTGGATTGGTGTGGCCATATGTCTAGCCATTGCATGTTATTTGCTGCAAGAACACATCCGGGCATCGGGTGGGTTTAGAAACTCCTTCACAAAAGCACATGGCATATCCAACACTGTTGGCATAATACTTCTGTTTGTTTATCCTGCCTGGGCATTGCTGATTGATTTGCTTTAAGCACAC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||  ||||||||||||||||||  || ||  ||    |  |    ||| |   ||||||| |   |||| |   |||||||||||||||||| || | ||||||  | |||||||||||  | || ||||| || || |||||||| ||| | ||| |||||||||| |||||| || | |||||||||||||| |||||||| || ||||| ||||| |  ||  ||||||||||||||||||||| ||||||||||||||| |||| | |  |||| ||  | |||||||||||||| |||||  |||||||  |  |||| || ||||||||||||||||||||||||||||| ||||||||||  |||||||||||| | |||||||||||||| || |||||| | ||||| ||||||  | ||||||||||  | |  |||||||| || ||||  |||||||||||||| ||||||||| ||||||| |||||||| ||||| ||||| ||| |    ||||||||||| ||| || ||||  |||| |||||| | || ||||||| ||||||  || |  || | || || || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|147793091|emb|AM483679.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X174607.9, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM483679</Hit_accession>
+  <Hit_len>6502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.443</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>3.78166e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>5706</Hsp_hit-from>
+      <Hsp_hit-to>5994</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCTTCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTAT</Hsp_qseq>
+      <Hsp_hseq>TACTCTACAGTCTCTGACTTTGTAAGCTTCGCGCTTCTTCTCCTTTTTCTCTCTGGGGAAAGATTTTCCCTTTCTGTGTGTGAAGACTGAAGATCGGAGGAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTTCATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1269903060|ref|XM_022907078.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 1-like (LOC111308612), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022907078</Hit_accession>
+  <Hit_len>1338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.64</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>1.31993e-140</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>904</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>480</Hsp_identity>
+      <Hsp_positive>480</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGAGTTATGTGGCAACGAGGGCTGGGCAAGAAGCAAGTGATCTTATCAGTTCCGATTTCAAAGAGCTAGTATTTGCTGCTAAGAAGCTTGCTCATCATGCCTTCAAGTTGGGTTCTTTAGGATTTGGGACATCGGTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATCTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACGGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCTTATTGTTCAACATCTTCAGGGGACAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCTGATTGGCTGGAGCTTCCTGCTGCTTTGATTCTTCTAATAGTGGTGGCTCCTACCTTATTTTCAAGCACCATAAGAAACGACTGGATTGGTGTGGTGATATGCCTTGCCATTGCTTGTTACCTTCTCCAGGAACACATCAGGGCATCGGGTGGGTTTCGAAATTCTTTCACACAAGCGCATGGAATATTGAACACAATTGGCATAATTATTCTGTTGGTCTACCCTGCTTGGGCTTTGGTACTTGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || ||| ||||  |||| | |||| |||     ||  | | |||| | |||||||| ||| ||| ||| || |    ||||||||||||||||||   ||||||| | ||| | |||  | | || ||||| ||  |  ||||||| ||| | ||||| |||||||| |||||| |||| |||||||| |||||||| ||||| ||||| || |||||||||||  ||||||| || || ||||| |||||||||||  |||| |||||| | ||||| || |||||||||||||||||||||||| ||||||| ||  ||||| | |||||||| | ||||||||| |||||||||||  | ||||| |||||||||||| | |||||||||||||| | ||| ||||| ||||| |||||    |||||||||||  | || ||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  ||||||| || |||||   |||||| ||||  ||| | |||||  ||||  ||||| ||||||| ||||  |||||| |||||||| || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1269903058|ref|XM_022907077.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 1-like (LOC111308612), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022907077</Hit_accession>
+  <Hit_len>1147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.64</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>1.31993e-140</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>716</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>480</Hsp_identity>
+      <Hsp_positive>480</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GATGGGAAAGAAGAGTTATGTGGCAACGAGGGCTGGGCAAGAAGCAAGTGATCTTATCAGTTCCGATTTCAAAGAGCTAGTATTTGCTGCTAAGAAGCTTGCTCATCATGCCTTCAAGTTGGGTTCTTTAGGATTTGGGACATCGGTTCTTGAATGGATCGCTTCCTTTGCTGCAATTTATCTATTGATCTTGGACCGAACAAATTGGAAAACAAATATTCTTACGGCACTATTAATCCCATATATCTTCTTGAGTCTTCCTTCCTTATTGTTCAACATCTTCAGGGGACAGGTTGGAAAATGGATTGCTTTTGTTGCTGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCTGATTGGCTGGAGCTTCCTGCTGCTTTGATTCTTCTAATAGTGGTGGCTCCTACCTTATTTTCAAGCACCATAAGAAACGACTGGATTGGTGTGGTGATATGCCTTGCCATTGCTTGTTACCTTCTCCAGGAACACATCAGGGCATCGGGTGGGTTTCGAAATTCTTTCACACAAGCGCATGGAATATTGAACACAATTGGCATAATTATTCTGTTGGTCTACCCTGCTTGGGCTTTGGTACTTGACATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>|||||| || ||| ||||  |||| | |||| |||     ||  | | |||| | |||||||| ||| ||| ||| || |    ||||||||||||||||||   ||||||| | ||| | |||  | | || ||||| ||  |  ||||||| ||| | ||||| |||||||| |||||| |||| |||||||| |||||||| ||||| ||||| || |||||||||||  ||||||| || || ||||| |||||||||||  |||| |||||| | ||||| || |||||||||||||||||||||||| ||||||| ||  ||||| | |||||||| | ||||||||| |||||||||||  | ||||| |||||||||||| | |||||||||||||| | ||| ||||| ||||| |||||    |||||||||||  | || ||||| ||||| ||||  |||||  | || |||||||||||||||||||| ||||||||  ||||||| || |||||   |||||| ||||  ||| | |||||  ||||  ||||| ||||||| ||||  |||||| |||||||| || |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|985450429|ref|XM_006479288.2|</Hit_id>
+  <Hit_def>PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 1 (LOC102614347), mRNA</Hit_def>
+  <Hit_accession>XM_006479288</Hit_accession>
+  <Hit_len>1008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>4.607e-140</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>722</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>763</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>501</Hsp_identity>
+      <Hsp_positive>501</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>GATCGGAGGAGATTGAA------GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGC----CACTCA-----TGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GATCGGA--AGATTGAAAGCGATGATGGGTAAGAAGAGTTATTTGGCCACGAGAGCTGGTGGGGTGACAAGTGATTTGATAAGCTCGGACATGAAAGAGCTTGTTGTGGCTGCAAAGAAGCTGGCTGATCATTCAGTGGATGCCATCAAGCTCCGTGGTTTAGGATTTGGAACCACTTTTCTCGAATGGGTTGCTTCTTTTGCTGCTATTTATTTGTTGATCTTGGACCGAACAAATTGGAGAACTAACATTCTTACAGGATTGTTGATCCCTTATATCTTCTTTAGTCTTCCTTCACTGATTTTCAACGTATTCAGGGGAGATGTTGGAAAATGGATTGCTTTCATTGCTATTATCTTGCGCCTTTTCTTCCCAAGACATTTCCCAGATTGGCTGGAAATGCCTGCTGCTTTGATTCTTCTAATAGTGGTTGCTCCCAGTTTATTTGCAAGCTACGTAAGAAGCAGCTGGATTGGTGTGGTAATATGTCTTGCCATCGCTTGTTATTTGCTGCAAGAACACATCCGAGCATCTGGTGGCTTTAGAAATTCCTTCACAAAGGCCCATGGCGTTTCAAACTCAGTTGGCATAATCATTCTGGTGGTCTATCCTGCCTGGGCCCTGGTGCTTTACATCCTATAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||  ||||||||      |||||| || ||| |||| ||||| | |||  |||     |  || | ||||||||| || || ||  | | ||| |||| |   ||||| |||||||| ||    || |||     |||||| |||||  ||||| | || ||||| || || ||||| || ||| | |||||||||||||| |||||||| || |||||||| |||||||| ||||  || ||||| ||||| | | |  | |||||||| || |||||||||||||||||| |  | |||||| | ||||| ||  | |||||||||||||||||||| |||||| |  |  ||||||| |||||||||| || ||||||||||||||||||||||||||| |||||||||||| | |||||||| |||||||| || ||| | |||    ||||  |   |||||||||  | |||||||||||||| || |  |||||||||||||| ||||||||| | ||||||||||| || ||||||||||| ||| ||   |||||| | ||||||||  ||||  ||||| ||||| |||||||||||| |||||| ||||| ||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|567861017|ref|XM_006423100.1|</Hit_id>
+  <Hit_def>Citrus clementina hypothetical protein (CICLE_v10029293mg) mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_006423100</Hit_accession>
+  <Hit_len>992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>4.607e-140</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>722</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>501</Hsp_identity>
+      <Hsp_positive>501</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>GATCGGAGGAGATTGAA------GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGC----CACTCA-----TGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GATCGGA--AGATTGAAAGCGATGATGGGTAAGAAGAGTTATTTGGCCACGAGAGCTGGTGGGGTGACAAGTGATTTGATAAGCTCGGACATGAAAGAGCTTGTTGTGGCTGCAAAGAAGCTGGCTGATCATTCAGTGGATGCCATCAAGCTCCGTGGTTTAGGATTTGGAACCACTTTTCTCGAATGGGTTGCTTCTTTTGCTGCTATTTATTTGTTGATCTTGGACCGAACAAATTGGAGAACTAACATTCTTACAGGATTGTTGATCCCTTATATCTTCTTTAGTCTTCCTTCACTGATTTTCAACGTATTCAGGGGAGATGTTGGAAAATGGATTGCTTTCATTGCTATTATCTTGCGCCTTTTCTTCCCAAGACATTTCCCAGATTGGCTGGAAATGCCTGCTGCTTTGATTCTTCTAATAGTGGTTGCTCCCAGTTTATTTGCAAGCTACGTAAGAAGCAGCTGGATTGGTGTGGTAATATGTCTTGCCATCGCTTGTTATTTGCTGCAAGAACACATCCGAGCATCTGGTGGCTTTAGAAATTCCTTCACAAAGGCCCATGGCGTTTCAAACTCAGTTGGCATAATCATTCTGGTGGTCTATCCTGCCTGGGCCCTGGTGCTTTACATCCTATAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||  ||||||||      |||||| || ||| |||| ||||| | |||  |||     |  || | ||||||||| || || ||  | | ||| |||| |   ||||| |||||||| ||    || |||     |||||| |||||  ||||| | || ||||| || || ||||| || ||| | |||||||||||||| |||||||| || |||||||| |||||||| ||||  || ||||| ||||| | | |  | |||||||| || |||||||||||||||||| |  | |||||| | ||||| ||  | |||||||||||||||||||| |||||| |  |  ||||||| |||||||||| || ||||||||||||||||||||||||||| |||||||||||| | |||||||| |||||||| || ||| | |||    ||||  |   |||||||||  | |||||||||||||| || |  |||||||||||||| ||||||||| | ||||||||||| || ||||||||||| ||| ||   |||||| | ||||||||  ||||  ||||| ||||| |||||||||||| |||||| ||||| ||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|156567558|gb|EU077497.1|</Hit_id>
+  <Hit_def>Poncirus trifoliata cold acclimation WCOR413-like protein mRNA, complete cds</Hit_def>
+  <Hit_accession>EU077497</Hit_accession>
+  <Hit_len>849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.426</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.95895e-138</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>722</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>500</Hsp_identity>
+      <Hsp_positive>500</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>GATCGGAGGAGATTGAA------GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGC----CACTCA-----TGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCAC</Hsp_qseq>
+      <Hsp_hseq>GATCGGA--AGATTGAAAGTGATGATGGGTAAGAAGAGTTATTTGGCCATGAGGGCTGGTGGGGTGACAAGTGATCTGATAAGCTCAGACATGAAAGAGCTTGTTGTGGCTGCAGAGATGCTGGCTGATCATTCAGTGGATGCCATCAAGCTCCGTGGTTTAGGATTTGGAACCACTTTTCTCGAATGGGTTGCTTCTTTTGCTGCTATTTATTTGTTGATCTTGGACCGAACAAATTGGAGAACTAACATTCTTACAGGATTGTTGATCCCTTATATCTTCTTTAGTCTTCCTTCACTGATTTTCAACGTATTCAGGGGAGATGTTGGAAAATGGATTGCTTTCATTGCTGTTATCGTGCGCCTTTTCTTCCCAAGACGTTTCGCAGATTGGCTGGAAATGCCTGCTGCTTTGATTCTTCTAATAGTGGTTGCTCCCAGTTTATTTGCAAGCTACACAAGAAGCAGCTGGATTGGTGTGGTAATATGTCTTGCCATCGCTTGTTATTTGCTGCAAGAACACATCCGAGCATCTGGTGGCTTTAGAAATTCCTTCTCAAAGGCCCATGGCGTTTCAAACTCAGTTGGCATAATCATTCTGGTGGTCTATCCTGCCTGGGCCCTGGTGCTTTACATCCTATAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||  ||||||||      |||||| || ||| |||| ||||| |||||| |||     |  || | |||| |||| || || ||  | | ||| |||| |   |||||  ||| ||| ||    || |||     |||||| |||||  ||||| | || ||||| || || ||||| || ||| | |||||||||||||| |||||||| || |||||||| |||||||| ||||  || ||||| ||||| | | |  | |||||||| || |||||||||||||||||| |  | |||||| | ||||| ||  | |||||||||||||||||||| ||||||||  |  ||||||| |||||||||| ||||||| |||||||||||||||||||||| |||||||||||| | |||||||| |||||||| || ||| | |||   | |||  |   |||||||||  | |||||||||||||| || |  |||||||||||||| ||||||||| | ||||||||||| || |||||||||||  || ||   |||||| | ||||||||  ||||  ||||| ||||| |||||||||||| |||||| ||||| ||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|160954667|emb|CU225096.1|</Hit_id>
+  <Hit_def>Populus EST from leave</Hit_def>
+  <Hit_accession>CU225096</Hit_accession>
+  <Hit_len>1163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.016</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>8.32966e-137</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>696</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>589</Hsp_align-len>
+      <Hsp_qseq>GGGAAAA--AGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGC</Hsp_qseq>
+      <Hsp_hseq>GGGAAAAGAAAGGTTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGCTTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGGTTAGGATTTGGTACCACTTTTCTTGAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATGCTTACTGGACTCTTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGCTCAGGGGAGAGGTTGGAAAATGGATTGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGCGGTGGCTCCCAGTTTGTTTGCGAACACGATAAGGAATGATTGGATTGGTTTGGTCATATGTTTAGCCATTGGATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTTCACAAAAACAAATGGCATATCCAACATTGTTGGGCATACACTTCTGTGTGTTTATCCGGCCTGGGC</Hsp_hseq>
+      <Hsp_midline>|||||||  | |||||||||||||||||||  ||    || |   | | ||  ||| | | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||||| ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| |  |||| ||  ||||||||||||||||||||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | |||| |||||||||||| |||||| ||| ||| ||||||  ||| ||||||||  | || |||||| | || ||||| ||||||||||| || ||||||||| |||||| ||| ||||| ||||| ||||| ||| | |   |||||||||| |||  | ||||    |  ||||||   || ||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|743885577|ref|XM_011039297.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica cold-regulated 413 plasma membrane protein 1-like (LOC105134757), mRNA</Hit_def>
+  <Hit_accession>XM_011039297</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.606</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>3.54186e-135</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>676</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>483</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>620</Hsp_align-len>
+      <Hsp_qseq>GATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>GATGGAAAAGAAAGGTTACTTGGCCATGAGGAGGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGAATTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTAAATGGATCGCTTCCTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATTCTTACTGGACTATTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTTCTCAGGGGAGAGATTGGAAAATGGATTGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCGTTGATTCTTCTAATAACGGTGGCTCCCAGTTTGTTTGCGAGCACGGTAAGGAATGATTGGATTGGTGTGGTCATATGTTTAGCCATTGCATGTTATTTGCTCCAAGAACACATCCGGGCATGTGGCGGGTTTAGAAACTCCTT--CACAAAAGCAAATGGCATATCCAACATTGTTGGCATAATACTTCTGTTTGTTTATCCCGCCTGGGCAATTGTGCTTTATATCCTTTAAGCTCA</Hsp_hseq>
+      <Hsp_midline>|||||  || || ||||||||||| |||||||  ||    || |   | | ||  ||||| | ||||||| |   |||  ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||| | ||| | ||||| |||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| || |||| ||  || |||||||||||||||||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   || ||||||||| | |||  |||||||||||| |||||| |||||||  |||||  ||| ||||||||  | || |||||| | || ||||  ||||||||||| || ||||||||| |||||| ||| ||||| ||||| |||||  |||| | ||  |||||||||| |||  | ||||  |||| |||||| | || ||||| | ||||||  | || ||| |  |||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1227922101|ref|XM_022041041.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya cold-regulated 413 plasma membrane protein 1 (LOC110813780), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022041041</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.999</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>4.31487e-134</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>501</Hsp_identity>
+      <Hsp_positive>501</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTGAAGATCGGAGGAGA-TTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGG--ACTGACACTGATACTACTGATTTGATCAGTTCTGATCT-CAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACAC</Hsp_qseq>
+      <Hsp_hseq>CTGGAGA-CAGAGGAGGGTTGAAGATGGCGAAAA---GTTACTTAGCAATGAGGGAACAGCAA--GAAGCCAGTGATTTGATCGCTGCTGATCTGCAG-GCTCTTGTGGTTTCTGCCAAGAAGCTGGCGAATCATGCGATCAGGCTCGGTGGGTTGGGCTTTGGCACCTCTTTTCTTGAGTGGCTCGCTTCGTTTGCCGCCATTTACTTGTTGATCTTGGATCGGACAAACTGGAGAACAAACATCCTCACATCGCTACTCATCCCCTACATTTTCTTTAGTCTTCCTTCAATTCTCTTCGGCCTCTTCAGGGGAGATGTTGGGAAGTGGATTGCTTTCATTGCAGTAGTCTTGCGTCTCTTTTTCCCGAGACATTTCCCTGATTGGCTGGAGCTGCCCGCGGCTTTGATTCTTCTGATAGTTGTGGCTCCCAGCATATTCGCGAGCAACTTTAGGAGCAACTTGGTTGGTGTGGCGATATGTCTTGCCATTGCGTGTTATCTGCTGCAGGAACACATCCGGGCATCTGGTGGGTTCAGAAATTCCTT--CACAAAAGCAAAGGGTGTATCAAACACGGTTGGCATAATTCTTCTGTTTGTCTACCCTGCCTGGGCATTCATAATTCACTTCCTGTAAGTACAC</Hsp_hseq>
+      <Hsp_midline>||| ||| | ||||||  |||||||||| |||||   ||||||| || ||||||  || |  |  ||  | | ||||||||||  | ||||||| ||| |  ||||    | |||| |||||||| || | |||||| || | ||| |||||  |||||||||||||  | |||||||||||| | ||||| ||||| |||||||| || || ||||||||||| ||||||||||  ||||||||||| ||  | || || ||||| ||||||||||||||||||||||||||  | |||  | | ||||| ||  | ||||| || ||||||||||| ||||| |||||  |||| ||||| ||||| | || |||||| |||||||||||  |||| || |||||||||||| | ||||| |||||||||||| | ||  ||||||   | ||| |  ||| | ||||  | |  ||||||||||| |||| ||||||| ||||||||||||||||| ||||||||||||||||||||||||||||  |||| | ||  | ||  |||||||| |  ||||  |||| |||||| | ||||| |||| ||||||  |  || |||||||||| || | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1227922099|ref|XM_022041040.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya cold-regulated 413 plasma membrane protein 1 (LOC110813780), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022041040</Hit_accession>
+  <Hit_len>1079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.999</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>4.31487e-134</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>835</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>501</Hsp_identity>
+      <Hsp_positive>501</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTGAAGATCGGAGGAGA-TTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGG--ACTGACACTGATACTACTGATTTGATCAGTTCTGATCT-CAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACAC</Hsp_qseq>
+      <Hsp_hseq>CTGGAGA-CAGAGGAGGGTTGAAGATGGCGAAAA---GTTACTTAGCAATGAGGGAACAGCAA--GAAGCCAGTGATTTGATCGCTGCTGATCTGCAG-GCTCTTGTGGTTTCTGCCAAGAAGCTGGCGAATCATGCGATCAGGCTCGGTGGGTTGGGCTTTGGCACCTCTTTTCTTGAGTGGCTCGCTTCGTTTGCCGCCATTTACTTGTTGATCTTGGATCGGACAAACTGGAGAACAAACATCCTCACATCGCTACTCATCCCCTACATTTTCTTTAGTCTTCCTTCAATTCTCTTCGGCCTCTTCAGGGGAGATGTTGGGAAGTGGATTGCTTTCATTGCAGTAGTCTTGCGTCTCTTTTTCCCGAGACATTTCCCTGATTGGCTGGAGCTGCCCGCGGCTTTGATTCTTCTGATAGTTGTGGCTCCCAGCATATTCGCGAGCAACTTTAGGAGCAACTTGGTTGGTGTGGCGATATGTCTTGCCATTGCGTGTTATCTGCTGCAGGAACACATCCGGGCATCTGGTGGGTTCAGAAATTCCTT--CACAAAAGCAAAGGGTGTATCAAACACGGTTGGCATAATTCTTCTGTTTGTCTACCCTGCCTGGGCATTCATAATTCACTTCCTGTAAGTACAC</Hsp_hseq>
+      <Hsp_midline>||| ||| | ||||||  |||||||||| |||||   ||||||| || ||||||  || |  |  ||  | | ||||||||||  | ||||||| ||| |  ||||    | |||| |||||||| || | |||||| || | ||| |||||  |||||||||||||  | |||||||||||| | ||||| ||||| |||||||| || || ||||||||||| ||||||||||  ||||||||||| ||  | || || ||||| ||||||||||||||||||||||||||  | |||  | | ||||| ||  | ||||| || ||||||||||| ||||| |||||  |||| ||||| ||||| | || |||||| |||||||||||  |||| || |||||||||||| | ||||| |||||||||||| | ||  ||||||   | ||| |  ||| | ||||  | |  ||||||||||| |||| ||||||| ||||||||||||||||| ||||||||||||||||||||||||||||  |||| | ||  | ||  |||||||| |  ||||  |||| |||||| | ||||| |||| ||||||  |  || |||||||||| || | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|305690597|gb|HQ010041.1|</Hit_id>
+  <Hit_def>Corylus heterophylla COR413-PM1 mRNA, complete cds</Hit_def>
+  <Hit_accession>HQ010041</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.393</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.25659e-133</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>718</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>444</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>558</Hsp_align-len>
+      <Hsp_qseq>TGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC-ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAG</Hsp_qseq>
+      <Hsp_hseq>TGATCAGCTCTGATCTGAAAGAGCTTGGAAACGCCGCTAAAAAGCTCGCTACCCATGTCGGCAACCTCACCAGCTTAGGCTTCGGCACCACATTCCTTCAATGGGTTGCTTCCTTCTCTGCAATTTATTTGTTGGTTCTGGATCGAACACATTGGAAGACAAACATTCTTACGTCTCTGCTAATCCCGTACATCTTCTTCAGTTTTCCTTCACTACTGTTCAACATCTTCAGAGGAGAGATTGGGAAATGGATTGCTTTTGTTGCGGTTGTGTTGCGCCTTTTCCTCCCACGACATTTCCCAGATTGGCTGGAACTTCCAGGCGCTTTGATTCTTTTGATGGTGGTGGCTCCTAGTTTACTTGCAGACACTGTAAGGGACGACTGGATTGGCGTGGCAATATGTCCTGTCATTGCATGTTATTTGCTGCAAGAACACATCCGGGCATCTGGCGGTTTCAGAAATTCCTTCACA-AAAGCCAATGGCATATCAAACACGGTTGGTATAATCCTTCTGTTGGTCTATCCTGTCTGGGCACTGGTACTTGACTTCATATAG</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| | ||| ||||| || || ||||| ||||| || || |||| |   || ||     |  | ||||| ||||| ||||| ||| | ||| | ||||| ||  |||| |||||||| ||  |  ||||||||||| | |||||||||||||| |||||| | || |||||||| ||||| ||||| ||| |||||||| || | |||||| | ||||| ||  || |||| ||||||||||||||| |||| || ||| ||||||| ||| |||||  || ||||||||||||||||||| | || |  |||||||||||| | || ||||||||||| || ||  || |   |||| ||||||  |||||||||||| | | |||||||| ||  ||||  |||||||||||||| ||||||||| |||||||||| || |||||||||||||| ||| | || | |||||||||||||| |  ||||  ||||||||||| ||||||||||||||||||| ||||||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|160950387|emb|CU223238.1|</Hit_id>
+  <Hit_def>Populus EST from leave</Hit_def>
+  <Hit_accession>CU223238</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.376</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>2.72298e-130</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>696</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>464</Hsp_identity>
+      <Hsp_positive>464</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>591</Hsp_align-len>
+      <Hsp_qseq>AAAAAGGGTTACTTGGCGATGAGGACTGACACTGATA---CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACAT--CAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATAT--CAAAC-TCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGC</Hsp_qseq>
+      <Hsp_hseq>AAAAAAGGTTACTTGGCGATGAGGAGGGATCAAGAAATGGCAAGTGGATTGATTACTTCTGATTTTCAAGACTTTGCTAATGCTGCTAAGAAGCTAGCTAATCATGCTATCAAGCTTGGCGGATTAGGATTTGGTACCACTTTTCTTGAATGGATCGCTTCTTTTGCTGCAATTTATCTATTGATCTTGGATCGAACGAACTGGAAAACGAACATGCTTACTGGACTCTTAATCCCCTACATTTTCTTTACTCTTCCTTCAATATTGTTCAACGTGCTCAGGGGAGAGGTTGGAAAATGGATTGCTTTCGTTGCTCTTATATTGCGTCTTTTCTTCCCAAAACATTTCCCAGATTGGCTTGAATTGCCTAGTGCTTTGATTCTTCTAATAGCGGTGGCTCCCAGTTTGTTTGCGAACACGATAAGGAATGATTGGATTGGTTTGGTCATATGTTTAGCCATTGGATGTTATTTGCTCCAAGAACACATTCCGGGGCAGTGGCGGGGTTTAGAAACTCCTT--CACAAAAGCAAATGGCATATTCCAAACATTGTTTGGCATTATACTTCTTTTTGTTTTTCCTGCCTTGGC</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||||||||  ||    || |   | | ||  ||||| | ||||||| |   |||| ||| |||||||||||||||||| || | |||||| || |||||||| ||  | || ||||| || || |||||||| ||| | |||||||||||||| |||||| |||| |||||||||||||| |||||||| || ||||| ||||| | |||  ||||||| ||||||||||||| ||||||||||||||| |||||| |  |||| ||  ||||||||||||||||||||||  ||||| |  |  |||| || ||||||||||||| ||||||||||||||| ||| |||||   |||||||||||| | |||| |||||||||||| |||||| ||| ||| ||||||  ||| ||||||||  | || |||||| | || ||||| ||||||||||| || ||||||||  | |||||   |  ||||| ||||| |||||  |||| | ||  |||||||||  ||||| |   ||||  | || |||||  | || | ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1098767945|ref|XM_018991598.1|</Hit_id>
+  <Hit_def>PREDICTED: Juglans regia cold-regulated 413 plasma membrane protein 2-like (LOC109010700), mRNA</Hit_def>
+  <Hit_accession>XM_018991598</Hit_accession>
+  <Hit_len>999</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.162</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.04126e-128</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>727</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>832</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>567</Hsp_align-len>
+      <Hsp_qseq>TGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTAT-AGGCACACTCT</Hsp_qseq>
+      <Hsp_hseq>TGATAAGGTCTGATCTGAAACAGCTTGGATACACCGCCAAAAAGTTCGCTACCGATGCCATCAAGCTCGGCAGCCTAGGCTTCGGCACCACCTTCCTCGAATGGGTTGCTTCTTTCTCTGCAATTTACTTGTTGATTCTGGATCGAACAAATTGGAAAACAAACATCCTTACATCTCTGCTAATCCCGTACATCTTTTTGAGTCTTCCTTCACTGCTGTTCAACATCTTCAGGGGAGAGATTGGTAAATGGATTGCTTTCATTGCTGTTGTGTTGCGCCTTTTCTTCCCACGCCGTTGCCCAGATTGGCTGGAACTGCCAGGGGCTTTGATTCTTTTGATCGTCGTGGCTCCAAGTTTAATTGCAGACACCATAAGGGACGACTGGATTGGGGTGGTGATATGTCTTGCAATAGCATGTTATTTGCTGCAAGAACACATCCGCGCATCGGGTGGTTTCAGAAATTCTTTCACAAAAGCCCATGGCATCTCAAACACGGTGGGGATAATCCTTCTGTTGGTCTATCCGGTCTGGGCACTTGTACTTGACTTCATATAAGGCGCACTCT</Hsp_hseq>
+      <Hsp_midline>|||| || |||||||| | | | |||||  |  | || || ||| | || ||  ||||||| ||||| ||  | || ||||| ||||| || || || || ||| | ||||||||  |||| ||||| || || ||  ||||||||||||| ||||| ||||||||||||||  | || |||||||| ||||| || || |||||||||||| |  | |||||| | ||||| ||  || |||| |||||||||||||| |||||||| ||| ||||||| |||||||||   |||| |||||||||||||||| |||| |  |||||||||||| | || || |||||||| || ||  || |   ||| |||||||  |||||||||||  | || |||||||||||||| |  |||||||||||||| ||||||||| | ||||| ||||| ||||||||||| || ||| |    |||||||| |||||| |  | ||  ||||||||||| |||||||||| |||||||| || |||||| ||||| ||| |||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1162576091|ref|XM_007200475.2|</Hit_id>
+  <Hit_def>PREDICTED: Prunus persica cold-regulated 413 plasma membrane protein 1 (LOC18767061), mRNA</Hit_def>
+  <Hit_accession>XM_007200475</Hit_accession>
+  <Hit_len>1009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.555</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>4.92326e-127</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>720</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>478</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>GAGATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC-ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATTGGAGATGGCAAAACAGAGCTACTTGAAAATGATGACTGAATCAGATGCAAATGAATTGATCCACTCAGATCTCAAAGACGTTGCCACTGCTGCTAAAAAGCTTGCCAACCATGCCATCAATCTGGGCAGCGTAGGCTTTGGCACCTCTTTCCTCAAATGGGTTGCTGCTTTTGCTGCAATCTATCTGTTGATCTTGGATCGAACAAACTGGAAATCAAACATCCTTACAGGGCTCTTAATCCCCTACATTTTCTTTACCCTTCCCTCAATATTGTTCAACATCTTCAGGGGACAGATTGGACAATGGATTGCTTTAGTTGCTGTCATCTTACGGATTTTCTTTCCTAAACATTTCCCAGAGTGGCTTGAATTGCCGGCTGCGTTGATTCTCCTTATAGTCGTTGCTCCTAGTTTAATTGCAAACACCGTGAGGGGCGACTGGATTGGCGTTGTAATATGTCTCGTCATCGCTGGTTATTTGCTGCAAGAACACATCCGGGCAGCCGGTGGGTTCAGAAATGCTTTCACA-AAAGCCAATGGCGTATCAAATACCGTTGGCATAGTTATTCTGTTCGTCTACCCTGTTTGGGCATTGGTGCTTGACATCCTATAGGC</Hsp_hseq>
+      <Hsp_midline>|| |||| ||||||  ||| || | ||||||   |||| ||||||  | ||| | | ||| ||||||   || ||||||| |||| |||  | ||||||||| ||||||||||  |||||||| || || ||  |  | |||||||||||  | || ||  | ||| | ||| |||||||||| || ||| | || |||||||||||||||||||||||  ||||||||||||| |  ||  ||||||| |||||||||||||  ||||| |||||||| |||||| | ||||| || ||| ||||| |||||||||||||  |||||||  |  | ||  | ||||| || |||| ||||||||| ||||| ||| |||| || || ||||||||  ||||||| || ||||| || ||  || | | |||  | ||||| |||||||||||| | ||||||||||| |  || |   ||||||||||||| ||||||||| ||||| | ||||||||||||||| | || ||| | || | ||||| |||||||  |  ||||  || |  ||||| | ||||| ||||| |||||  |||| ||| || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1000966546|ref|XM_002519075.2|</Hit_id>
+  <Hit_def>PREDICTED: Ricinus communis cold-regulated 413 plasma membrane protein 2 (LOC8275578), mRNA</Hit_def>
+  <Hit_accession>XM_002519075</Hit_accession>
+  <Hit_len>1104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.735</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>8.90147e-124</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>721</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>470</Hsp_identity>
+      <Hsp_positive>470</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>615</Hsp_align-len>
+      <Hsp_qseq>AAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCA</Hsp_qseq>
+      <Hsp_hseq>AAAATGGGAAAGAAAAGTTATTTAGCAATGAGGACAGAACAAGCAACGAGCGAATTGATTGTTTCCGATATCAAAGATTTAAAGATTGCTGCTAAGAAGTTAGCCAATCATGCTATCAAGCTTGGTGGGTTAGGTTTTGGGACTTCTTTTCTTGAATGGATTGCTTCTTTTGCTGCTATTTATCTGTTGATCTTGGACCGAACAAACTGGAGAACAAACATACTTACTGGTTTATTAATCCCTTACATATTCTTCAGCCTTCCTTCAATACTTTTCAGTCTTTTCAGAGGTGATTTGGGGAAATGGATTGCTTTTGTTGCAGTTATTTTGCGCCTTTTCTTCCCAAGACGATTCCCAGATTGGCTGGAAATGCCAGCCGCTCTGATCTTACTGATAGTGGTGGCTCCTAGTCTGTTTGCAAGCACCTTAAGGAGCAGCTGGGTGGGTCTGGCTATTTGCCTTGCCATTGCTGCTTATTTGCTTCAAGAACATATTCGTGCATCTGGTGGATTCAGAAACTCCTTTACTAAAGCTCATGGCATATCGAACACCATTGGCATAATCCTTCTGTTTGTTTATCCTGTCTGGGCATTGGTACTTGATATCCTGTAAGCA</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||  |||| || || |||||||| ||    |  || |  || |||||   ||| ||| ||| |||  |    | ||||||||||||| | |||| |||||| || |||||||||||  | || ||||| ||| | |||||||| ||| | |||||||||||||| |||||| | || |||||||| |||||||||||||  |||||||| ||||| |   |  ||||||||||||| ||||| || |||||||||||| | ||||   ||||||| ||| |  | || ||||||||||||||| |||| ||  |  ||||||| |||||||||| ||| ||||||||||||||||||||||| || ||| ||||  |  | |||||||||||||| ||  ||||| | |||||  ||||| |   |||| | || || |  || || ||||| ||||    ||||||||| || ||||| ||  | ||||||||||| |||||||| ||||||||  |    ||||||||||| ||| | |||||  ||||||||||| | || ||||||||||||||  |||||||| |  |||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1279097306|ref|XM_023005269.1|</Hit_id>
+  <Hit_def>PREDICTED: Olea europaea var. sylvestris cold-regulated 413 plasma membrane protein 2-like (LOC111381484), mRNA</Hit_def>
+  <Hit_accession>XM_023005269</Hit_accession>
+  <Hit_len>1108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.325</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>3.785e-122</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>916</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>593</Hsp_align-len>
+      <Hsp_qseq>AAAAAGGGTTACTTGGCGATGAGGACTGACACTGA---TACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACT</Hsp_qseq>
+      <Hsp_hseq>AAGAAGAGTTATTTGGCAATGAAAACTGATTCTGTAGCTGCTAATGAATTGATCAGTTCTGATTTTAAGGAAATTGGGAATGCTGTGAAAAAGCTTGCTAATCATACAGTAAAGCTTGGTAGCCTTGGATTTGGGACTACAATCCTCAAATGGATTGCTTCATTTTCTGCAATTTACTTGTTGATCCTAGATCGAACAAACTGGAAAACCAACATACTTACGGCCCTTTTAATTCCATACATTTTCCTGAGTCTTCCTTCACTAATTTTCAACTTGCTCAGAGGAGAAATTGGGAAGTGGATTGCGTTTATAGCTGTTGTCCTACGCCTTTTCTTCCCCAGACATTTTCCGGATTGGCTAGAACTGCCGGCAGCTTTGATCCTTGTCATTGTGGTGGCTCCAAGCTTTTTTGCTGACACCATAAGGGACAGCTGGGTTGGTATCTTGATTTGTCTGGTCATCGGATGCTATTTGCTGCAGGAACATATCCGAGCATCGGGTGGGTTCAGGAATTCCTTCACGAAGAGCCACGGGATTTCCAACACTATCGGGATAGTCATTCTGTTGGTATATCCCGTCTGGGCACTCATACT</Hsp_hseq>
+      <Hsp_midline>|| ||| |||| ||||| ||||  |||||  |||    | ||| ||| ||||||||||||||| | |  ||  |||| |||||||  || |||||||| | |||| |  | ||||||||| | || || ||||| |||||| | ||  | ||| | ||||| ||| |||| ||||| || || ||| | ||||||||||||||||| || ||||| |||||||| ||| |||| || ||||||||| | |||||||||||| || | ||||||||  |||| ||  |  |||| || |||||||| ||||| ||||| || || ||||| |||||||| | || ||| || |||||||| ||| |||| ||||||||||| ||||| || ||||||||||| ||||| ||| |   ||| |||||||    |||| ||||  || | || ||||| |  || || || ||||||||||||||||| ||| | ||||| ||||||||||| |||||||| ||  |||| || || || || ||| |||| ||  || || ||||| |||| ||||| |||||||| ||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1279001367|ref|XM_023005209.1|</Hit_id>
+  <Hit_def>PREDICTED: Olea europaea var. sylvestris cold-regulated 413 plasma membrane protein 2-like (LOC111381429), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023005209</Hit_accession>
+  <Hit_len>1075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.325</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>3.785e-122</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>601</Hsp_align-len>
+      <Hsp_qseq>TGGGGAAAAAGGG---TTACTTGGCGATGAGGACTGACACTGA---TACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACT</Hsp_qseq>
+      <Hsp_hseq>TGGGGAAAAAGAGGAGTTATTTGGCAATGAAAACTGATTCTGTGGCTGCTAATGAATTGATCAGTTCTGATTTGAAGGAAATAGGGAATGCTGTGAAAAAGCTTGCTAATCATGCTGTAAAGCTTGGTTCGCTTGGATTTGGGACTATATTCCTCGAATGGATTGCTTCATTTGCTGCAATTTACTTGTTGATCTTAGATCGAACAAACTGGAAAACCAACATACTCACGTCCCTTTTAATTCCTTACATTTTCCTGAGTCTTCCTTCACTTATATTCAATTTGCTCAGGGGCGAAATTGGGAAGTGGATTGCTCTTATTGCTGTTGTCCTCCGCCTTTTCTTCCCCAGACGTTTTCCAGATTGGCTAGAACTGCCAGGAGCTTTGATCCTTCTCATTGTGGTGGCTCCGAGCTTTTTTGCTGGCACCATAAGGGACAGCTGGATCGGTATCTTGATTTGTCTGGTCATTGGCTGCTATTTGCTGCAGGAACATATCCGAGCGTCGGGTGGGTTCAGGAATTCATTTACGAAGAGCAACGGGATTTCCAACACCATCGGGATTGTCATTCTGTTGGTATATCCTGTTTGGGCACTCATACT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |   ||| ||||| ||||  |||||  |||    | ||| ||| ||||||||||||||| | |  ||  | || |||||||  || |||||||| | ||||||  | |||||||||   || || ||||| |||| ||| || || ||| | ||||| |||||||| ||||| || || ||||| ||||||||||||||||| || ||||| || ||| | ||| |||| |||||||||||| | |||||||||||| |  ||||||| ||  |||| ||  |  |||| || ||||||||| |||||||||| || || ||||| |||||||| | |||||| ||||||||||| ||| |||| | ||||||||| ||| | || ||||||||||| ||||| ||| |  |||| |||||||    |||||| ||  || | || ||||| |  ||||| || ||||||||||||||||| ||| | || || ||||||||||| ||||| |||||  ||||  | || || || ||| | || ||  |  || ||||| |||| |||||||| ||||| ||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1009168492|ref|XM_016047201.1|</Hit_id>
+  <Hit_def>PREDICTED: Ziziphus jujuba cold-regulated 413 plasma membrane protein 2-like (LOC107435567), mRNA &gt;gi|1009168866|ref|XM_016047409.1| PREDICTED: Ziziphus jujuba cold-regulated 413 plasma membrane protein 2-like (LOC107435780), mRNA</Hit_def>
+  <Hit_accession>XM_016047201</Hit_accession>
+  <Hit_len>1203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.718</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>4.61107e-121</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>727</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>571</Hsp_align-len>
+      <Hsp_qseq>GATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAG-GCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACACTCT</Hsp_qseq>
+      <Hsp_hseq>GACTTGGTCAACTCTGATCTCAAAGACCTCGCAGCAGCTGCTAAAAACCTTGCCAACCACTCCATCAAGCTTGCTAGTTTGGGCTTCGGTACCACTTTCCTTGAATGGCTTGCCTGCTTTGCTGCTATTTATTTGCTGGTCTTGGACCGAACAAACTGGAAAACAAACATTCTTACAGCACTGCTAATCCCATACATTTACCTGAGTCTTCCATCAATACTATTCGGCCTCTTAAACGGACAGATTGGAAAATGGATTGCTTTCATTGCTGTTGTGCTGCGGCTTTTCTTCCCTCAGCGATTCCCAGATTGGTTGGAATTGCCGGGAGCGCTGATTCTTCTTATAGTTGTGTCTCCTAGTTTATTTTCGAGCACAATACGGAACGGCTGGATCGGCGTGGTCATATGTCTAGTCATTGCATGCTATTTGTTGCAAGAACACATAAGGGCATCTGGTGGTTTTAGAAATGCCTTCACA-AGAGCTCATGGGGTATCAAACACAGTTGGTATAGTTCTTCTGTTTGTGTATCCTGTTTGGGCATTGCTAGTTGAAATCATTTAGAGCCACTCT</Hsp_hseq>
+      <Hsp_midline>|| ||| |||  |||||||||| |||||| |     |||||||| || |||||||  ||  |||| ||||||| | || ||||||| || || || || ||||| ||| | || |  |||||||| ||||||||  |  ||||||| |||||||||||||| |||||||| ||||| ||||| |||||||| ||||||| | | |||||||| |||||| |||||  | | || |  || ||| ||||||||||||||||||| |||||||| |||||||| || ||||||||  | || |||||||||||| ||||| |||| | |||  |||||||| ||||||| ||| |||| || || ||||||||||| ||| ||   | |||||| ||| | || |||||||| |  ||||  || |||||| |||| |||||||| |||||||||||||| || |||||| |||| ||| ||||  |||||  |||||||| |  ||||  || | |||||| | || |||||||| |||||  || || || |  || | |||   ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|823256350|ref|XM_012605368.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium raimondii cold-regulated 413 plasma membrane protein 2-like (LOC105780848), mRNA</Hit_def>
+  <Hit_accession>XM_012605368</Hit_accession>
+  <Hit_len>814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.112</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>5.61744e-120</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>464</Hsp_identity>
+      <Hsp_positive>464</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>GGAAAAAGG---GTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GGAAAAAGATGAGTTACTTGGCAATGAGGACTAAGCAAGAAGCAACTTATCAGCTCAGTTCTGATTACAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCAAATCATGCCATCAAATTGGGTTCTTTGGGGTTTGGGGTTTCATTTCTTGAATGGATCGCTTCTTTTGCTGCCATTTACTTATTAATCTTGGACCGAACACATTGGAAAACAAATATCCTTACAACACTATTAATCCCATATATTTTCTTGAGTCTTCCTGGGATACTCTTCAGCGCCTTCAGGGGAGACATTGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCGGATTGGTTGGAATTACCAGCAGCATTGGTTCTTCTAATAGTGGTTGCTCCTAGCTTATTCTCAAGCACATTAAGAAGCAGCTTGGTTGGGGTAATAATATGCCTTGCCATTGCTTGTTACTTACTTCAACAACATGTCAGGGCGTCAGGTGGGTTCAGAAATTCATTCACAAAGGCACATGGAATATCAAACACAGTTGGGATTATTCTTCTTTTGGTCTATCCTGCTTGGGCTTTGCTTCTTGAAATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>||||||||    |||||||||| ||||||||| |    ||  | ||| ||  | |||||||||||  || ||| || |    ||||||||| |||||||| | ||||||||| ||  | |||  | |||| |||||   | |||||||||| ||| | |||||||||||||||||||| |||||||||||||| |||||| | ||||| ||||| ||||||||  ||||  ||||||| || |||||||| |||||||||   ||| | |||| |   ||||| ||  |  |||||||||||||||||||| |||| || ||  ||||| | |||||||| | ||||||||| |||||| ||||| | || ||||| ||| ||||| | |||||||| ||||| ||||| || || |||||  ||||  |   || | ||||  |  ||||||| ||||| ||||  ||||| || || ||  ||||  ||||||| || ||||||||||||||||| || ||| ||   ||||| ||||||||| |  ||||  | || |||||  ||||||||||||  |||||| || | ||| |  |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1050586175|ref|XM_017758913.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum cold-regulated 413 plasma membrane protein 2-like (LOC108459527), mRNA</Hit_def>
+  <Hit_accession>XM_017758913</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.505</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>6.84344e-119</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>463</Hsp_identity>
+      <Hsp_positive>463</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>GGAAAAAGG---GTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GGAAAAAGATGAGTTACTTGGCAATGAGGACTCAGCAAGAAGCAACTTATCAGCTCAGTTCTGATTACAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCAAATCATGCCATCAAATTGGGTTCTTTGGGATTTGGGGTTTCATTTCTTGAATGGATCGCTTCTTTTGCTGCCATTTACTTATTAATCTTGGACCGAACACATTGGAAAACAAATATCCTTACAACACTATTAATCCCATATATTTTCTTGAGTCTTCCTGGGATACTCTTCAGCGCCTTCAGGGGAGACATTGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCGGATTGGCTGGAATTACCAGCAGCATTGGTTCTTCTAATAGTGGTTGCTCCTAGCTTATTCTCAAGCACATTAAGAAGCAGCTTGGTTGGGGTAATAATATGCCTTGCCATTGCTTGTTACTTACTTCAACAACATATTAGAGCGTCAGGTGGGTTCAGAAATTCATTCACAAGGGCACATGGAATATCAAACACAATTGGGATTCTTCTTCTTTTGGTCTATCCTGCTTGGGCTTTGCTTATTGAAATCCTATAGG</Hsp_hseq>
+      <Hsp_midline>||||||||    |||||||||| ||||||||| |    ||  | ||| ||  | |||||||||||  || ||| || |    ||||||||| |||||||| | ||||||||| ||  | |||  | |||| |||||   | |||||||||| ||| | |||||||||||||||||||| |||||||||||||| |||||| | ||||| ||||| ||||||||  ||||  ||||||| || |||||||| |||||||||   ||| | |||| |   ||||| ||  |  |||||||||||||||||||| |||| || ||  ||||| | |||||||| | ||||||||| |||||||||||| | || ||||| ||| ||||| | |||||||| ||||| ||||| || || |||||  ||||  |   || | ||||  |  ||||||| ||||| ||||  ||||| || || ||  |||| || || || || ||||||||||||||||| || |||  |   ||||| ||||||||| | |||||  |  | |||||  ||||||||||||  |||||| || |  || |  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1027107741|ref|XM_008238505.2|</Hit_id>
+  <Hit_def>PREDICTED: Prunus mume cold-regulated 413 plasma membrane protein 1-like (LOC103335494), mRNA</Hit_def>
+  <Hit_accession>XM_008238505</Hit_accession>
+  <Hit_len>1043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.505</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>6.84344e-119</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>718</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>469</Hsp_identity>
+      <Hsp_positive>469</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>617</Hsp_align-len>
+      <Hsp_qseq>ATTGAAGATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC-ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAG</Hsp_qseq>
+      <Hsp_hseq>ATTGGAGATGGCAAAACAGAGCTACTTGAAAATGATGACTGAACCAGATGCAAATGAATTGATCCACTCCGATCTCAAAGACCTTGCCACTGCTGCTAAAAAGCTTGCCAATCATGCCGTCCATCTGGGCAGCTTAGGCTTGGGCACCTCTTTCCTCAAATGGGTTGCTGCTGTTGCTGCAATCTATCTGTTGGTCTTGGATCGAACAATCTGGAAATCAAACATCCTTACAGGGCTCTTAATCCCCTACATTTTCTTTACCCTTCCCTCAATATTGTTCAACATCTTCAGGGGACAGATTGGACAATGGATTGCTTTAGTTGCTGTCATCTTACGGATTTTCTTTCCTAAACATTTCCCAGAGTGGCTTGAATTGCCGGCTGCGTTGATTCTCCTTATAGTCGTTGCTCCTAGTTTAATTGCAAACACCGTGAGGGGCGACTGGATTGGCGTTGTAATATGTCTCGTCATCGCTGGTTATTTGCTGCAAGAACACATCCGGGCAGCAGGTGGGTTCAGAAATGCTTTCACA-AAAGCCAATGGCGTATCGAATACCGTTGGCATAGTTATTCTGTTCGTCTACCCTGTTTGGGCATTGGTGCTTGACATCCTATAG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||  ||| || | ||||||   |||| ||||||  | ||| | | ||| ||||||   || ||||||| ||||||||  | ||||||||| |||||||||| ||||||| |  | || ||  |  | ||||| |||||  | || ||  | ||| | ||| || ||||||| || ||| | ||  ||||||||||||||| ||||||  ||||||||||||| |  ||  ||||||| |||||||||||||  ||||| |||||||| |||||| | ||||| || ||| ||||| |||||||||||||  |||||||  |  | ||  | ||||| || |||| ||||||||| ||||| ||| |||| || || ||||||||  ||||||| || ||||| || ||  || | | |||  | ||||| |||||||||||| | ||||||||||| |  || |   ||||||||||||| ||||||||| ||||| | ||||||||||||||| | || ||| | || | ||||| |||| ||  |  ||||  || |  ||||| | ||||| ||||| |||||  |||| ||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1039840780|ref|XM_008389111.2|</Hit_id>
+  <Hit_def>PREDICTED: Malus x domestica cold-regulated 413 plasma membrane protein 1-like (LOC103449792), mRNA</Hit_def>
+  <Hit_accession>XM_008389111</Hit_accession>
+  <Hit_len>1023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.702</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.3886e-118</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>718</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>832</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>604</Hsp_align-len>
+      <Hsp_qseq>AAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAG-GCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAG</Hsp_qseq>
+      <Hsp_hseq>AAACAGAGCTACTTGAAGATGATGACTGAATCTGATGCCGCCGATTTGATCAGCAGCGATTTCAAAGAGCTCGGCGCTGCTGCTAAGAAGCTCGCCGGCCACGCCGTCCGCCTCGGCAGCTTGGGATTCGGAACTGCTTTTCTCAAATGGGTTGCTTCGTTTGCTGCAATCTATCTGTTGATCTTGGATCGAACAAACTGGAAATCGAACATTCTTACAGGGCTATTGATCCCCTACATTTTCTTTACCCTTCCTTCAATATTGTTCAACATCTTCAGGGGAGAGATTGGAAAATGGATTGCTCTCGTTGGTGTTGTCTTACGGCTTTTCTTCCCTAAACGTTTCCCAGAGTGGCTGGAATTGCCCGCAGCGTTGATTCTTCTTATAGTGGTTGCTCCTAGTTTATTTGCGAACACTCTGAGAGGCGACTGGATTGGTGTTGTAATATGCCTTCTCATCGCCGGTTATTTGCTGCAAGAACACATCCGGGCAGCTGGTGGGTTCAGAGACGCTTTCAC-CAAAGCTGGTGGAATATCGAACACTGTTGGCATAATCATTCTGTTCGTCTACCCTGTTTGGGCCATTGTACTTTATATCTTATAG</Hsp_hseq>
+      <Hsp_midline>||| || | ||||||  ||||| ||||||  ||||| |  | |||||||||||    ||| ||| ||| || ||   ||||||||||||||| |||   || ||| |    || ||  |  |||| || || ||| | |||||  | ||| | ||||| |||||||| || ||| | || |||||||||||||||||||||||  | ||||| ||||| |  ||  | ||||| |||||||||||||  |||||||||||||| |||||| | ||||| ||  || ||||||||||||||||| |  ||| ||| ||  | || || |||||||| |||||||||||||| ||||||||| |||| ||||| ||||||||| |||||||||| ||||| || || ||| ||| |||| | || || |||||||||||  | |||||||| |||   || |   ||||||||||||| ||||||||| ||||| |||||||||||||| |  | || || || ||    ||| ||||| ||| || ||||  ||||| ||||| | ||||| ||||| |||||  | |||||| |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1029031852|ref|XM_016824225.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium hirsutum cold-regulated 413 plasma membrane protein 2-like (LOC107898702), mRNA</Hit_def>
+  <Hit_accession>XM_016824225</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.488</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.54499e-116</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>673</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>GGAAAAAGG---GTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GGAAAAAGATGAGTTACTTGGCAATGAGGACTAAGCAAGAAGCAACTTATCAGCTCAGTTCTGATTACAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCAAATCATGCCATCAAATTGGGTTCTTTGGGGTTTGGGGTTTCATTTCTTGAATGGATCGCTTCTTTTGCTGCCATTTACTTATTAATCTTGGACCGAACACATTGGAAAACAAATATCCTTACAACACTATTAATCCCATATATTTTCTTGTCTCTTCCTGGGATACTCTTCAGCGCCTTCAGGGGAGACATTGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCGGATTGGTTGGAATTACCAGCAGCATTGGTTCTTCTAATAGTGGTTGCTCCTAGCTTATTCTCAAGCACATTAAGAAGCAGTTTGGTTGGGGTAATAATATGCCTTGCCATTGCTTGTTACTTACTTCAACAACATGTCAGGGCGTCAGGTGGGTTCAGAAATTCATTCACAAAGGCACATGGAATATCAAACACAGTTGGGATTATTCTTCTTTTGGTCTATCCTGCTTGGGCTTTGCTTCTTGAAATCCTGTAGG</Hsp_hseq>
+      <Hsp_midline>||||||||    |||||||||| ||||||||| |    ||  | ||| ||  | |||||||||||  || ||| || |    ||||||||| |||||||| | ||||||||| ||  | |||  | |||| |||||   | |||||||||| ||| | |||||||||||||||||||| |||||||||||||| |||||| | ||||| ||||| ||||||||  ||||  ||||||| || ||||||||   |||||||   ||| | |||| |   ||||| ||  |  |||||||||||||||||||| |||| || ||  ||||| | |||||||| | ||||||||| |||||| ||||| | || ||||| ||| ||||| | |||||||| ||||| ||||| || || |||||  ||||  |    | | ||||  |  ||||||| ||||| ||||  ||||| || || ||  ||||  ||||||| || ||||||||||||||||| || ||| ||   ||||| ||||||||| |  ||||  | || |||||  ||||||||||||  |||||| || | ||| |  |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1028975648|ref|XM_016875784.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium hirsutum cold-regulated 413 plasma membrane protein 2-like (LOC107942145), mRNA</Hit_def>
+  <Hit_accession>XM_016875784</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.488</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.54499e-116</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>719</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>673</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>GGAAAAAGG---GTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGG</Hsp_qseq>
+      <Hsp_hseq>GGAAAAAGATGAGTTACTTGGCAATGAGGACTCAGCAAGAAGCAACTTATCAGCTCAGTTCTGATTACAAAGAGCTAGTCTTTGCTGCTAAAAAGCTTGCAAATCATGCCATCAAATTGGGTTCTTTGGGATTTGGGGTTTCATTTCTTGAATGGATCGCTTCTTTTGCTGCCATTTACTTATTAATCTTGGACCGAACACATTGGAAAACAAATATCCTTACAACACTATTAATCCCATATATTTTCTTGTCTCTTCCTGGGATACTCTTCAGCGCCTTCAGGGGAGACATTGGAAAATGGATTGCTTTTGTTGCAGTTGTTTTGCGCTTGTTCTTCCCTAGACGTTTCCCGGATTGGCTGGAATTACCAGCAGCATTGGTTCTTCTAATAGTGGTTGCTCCTAGCTTATTCTCAAGCACATTAAGAAGCAGCTTGGTTGGGGTAATAATATGCCTTGCCATTGCTTGTTACTTACTTCAACAACATATTAGAGCGTCAGGTGGGTTCAGAAATTCATTCACAAGGGCACATGGAATATCAAACACAATTGGGATTCTTCTTCTTTTGGTCTATCCTGCTTGGGCTTTGCTTATTGAAATCCTATAGG</Hsp_hseq>
+      <Hsp_midline>||||||||    |||||||||| ||||||||| |    ||  | ||| ||  | |||||||||||  || ||| || |    ||||||||| |||||||| | ||||||||| ||  | |||  | |||| |||||   | |||||||||| ||| | |||||||||||||||||||| |||||||||||||| |||||| | ||||| ||||| ||||||||  ||||  ||||||| || ||||||||   |||||||   ||| | |||| |   ||||| ||  |  |||||||||||||||||||| |||| || ||  ||||| | |||||||| | ||||||||| |||||||||||| | || ||||| ||| ||||| | |||||||| ||||| ||||| || || |||||  ||||  |   || | ||||  |  ||||||| ||||| ||||  ||||| || || ||  |||| || || || || ||||||||||||||||| || |||  |   ||||| ||||||||| | |||||  |  | |||||  ||||||||||||  |||||| || |  || |  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1026080906|ref|XM_016684213.1|</Hit_id>
+  <Hit_def>PREDICTED: Capsicum annuum cold-regulated 413 plasma membrane protein 2 (LOC107840374), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016684213</Hit_accession>
+  <Hit_len>908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.685</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.23732e-115</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>717</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>470</Hsp_identity>
+      <Hsp_positive>470</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>620</Hsp_align-len>
+      <Hsp_qseq>GAAGATGGGGAAAAAGG---GTTACTTGGCGATGAGGACTGACACTGA--TA-CTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGC--ATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATA</Hsp_qseq>
+      <Hsp_hseq>GAAGATGGGGATGAAGAATAGTTATTTGGCAATGAAGACAGATGCAGCAGTAGCAAGTGATTTGATTGATTCAGATTTGAAGGAAATTGGTGTTGCTGCTAAGAAGTTAGCTAATCATGCTATTATGCTTGGTGGCCTTGGTTTTGGCACTACTTTTTTCAAATGGCTTGCTTCTTTTGCTGCTATTTACTTGTTAATCTTGGATCGAACAAACTGGAGGACCAACATGCTTACAACCCTCCTAATTCCTTACATTTTCTTGAGTCTCCCTTCTTTAATCTTTGGTTGGTTCAGGGGAGATTTTGGAAAATGGCTCTCTTTGATTGCTGTTATAATACGCCTTTTTTTCCCTAAACATTTTCCAGATTGGCTTGAAGCACCAGCAGCATTGGTCCTTCTGATAGTGGTGGCGCCTAGTTTATTTGCTGACACCATAAGGGGCGATTGGATTGGTACGTTGATTTGCCTAGTCATTGGGTGCTATCTGTTGCAAGAACACATTAGAGCATCTGGTGGATTCAGAAATTCGTT--CACTAAAGCTAATGGCATTTCAAACACTATTGGAATCATCCTTCTTTTGGTATATCCAGTCTGGGCATTGATTCTCCACTTCATATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  |||    |||| ||||| |||| ||| ||  | |   || | | |||||||||   ||| ||| | |  ||  |||||  ||||||||||||| | || | |||||| |||| ||||||||| || || ||||||||||| ||| |  | ||| | |||||||||||||| ||||| || ||||||||||||||||||||||||| ||| ||||| |||||  | || ||||| |||||||||||||| ||||| |||||  || | ||    |  ||||| ||  |  ||||||||||| |  |||| ||||||||  |  | ||||| || ||||| |||| ||| ||||||||||| |||   || ||||| ||| | ||| | ||||||||||| || || || ||| |   ||| |||||||| || ||||||||     | || || || |  |||||||| ||| || |||| |||||||| || ||||||||||| ||||||||||| ||  |||  | ||  ||||||| |||||| |||||||| | ||||||||  |||| ||||| ||||||||  || | || |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1102738967|ref|XM_010256725.2|</Hit_id>
+  <Hit_def>PREDICTED: Nelumbo nucifera cold-regulated 413 plasma membrane protein 2 (LOC104595819), mRNA</Hit_def>
+  <Hit_accession>XM_010256725</Hit_accession>
+  <Hit_len>901</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.881</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>4.31868e-115</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>720</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>760</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>452</Hsp_identity>
+      <Hsp_positive>452</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>593</Hsp_align-len>
+      <Hsp_qseq>TGGCGATGAGGACTGACACTGAT-ACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGC</Hsp_qseq>
+      <Hsp_hseq>TGGCCATGAAAACTGATCC-GATGACAACCGAGTTGATTAGTTCCGACATGAAGGAACTCGGAATTGCCGCGAAGAAGCTTGCCAATGATGCTATCAAATTGGGAGGCTTAGGGTTTGGAACTTCCTTTCTCGGATGGGTTGCTTCCTTCGCTGCAATTTATTTGTTGATTTTGGATCGAACGAACTGGAGGACAAAAATGCTGACTTCACTTTTAGTGCCTTACATTTTCTTCAGCCTTCCTTCGGTATTATTTAACTTGTTAAGAGGAGAGGTTGGAAAATGGATTGCTTTCATTGCAGTTGTATTACGGCTCTTTTTCCCACGGCACTTCCCAGATTGGCTCGAGATGCCTGGATCCGTGATTCTTCTTCTGGTGGTGTCACCTAGTTTCTTTGCACATACCCTGAGGAGCAGCTGGGTTGGTATCGCTATATGTTTGTTAATTGGGTGTTATCTGCTGCAAGAGCACATCCGTGCGTCTGGTGGGTTCAGAAATTCCTTCACACAGAGCCACGGCATCTCAAACACTGTTGGAATTATTCTTTTGTTGATTTATCCTGTCTGGGCCTTGGTACTTCACTTTCATTAGGC</Hsp_hseq>
+      <Hsp_midline>|||| ||||  |||||  | ||| || || || ||||| ||||| ||  | |  || || || | ||| || ||||||||||||| | |||| || ||  | || ||  | || ||||| ||| | ||||| |  ||| | ||||| || ||||| |||||||| || || ||||||||||| ||||||| |||||| || || ||  ||||| || | |||||||||||||| || ||||||||  ||||||| ||||| || || ||  |||||||||||||||||||||| ||||| || ||  | || ||||| ||||||   |  |||||||||||||| || ||||||| | |  |||||||| || | |||||| | || || || ||| |    ||  | ||| |   |||| ||||  |||  |||||| |   ||||||||||||| ||||||| || |||||| | || ||||||||||||||||||||||| |||||||| || ||||| |||||| || ||||| | || ||| || || | ||||||||||||||  ||||||||||||| |  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1098846744|ref|XM_018974650.1|</Hit_id>
+  <Hit_def>PREDICTED: Juglans regia cold-regulated 413 plasma membrane protein 2-like (LOC108998174), mRNA</Hit_def>
+  <Hit_accession>XM_018974650</Hit_accession>
+  <Hit_len>975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.881</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>4.31868e-115</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>463</Hsp_identity>
+      <Hsp_positive>463</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>614</Hsp_align-len>
+      <Hsp_qseq>ATGGGGAAAAAGGGTTACTTGGCGATGAGGACTGACACTGATACTACTGATTTGATCAGTTCTGATCTCAGAGACCTTGGTAATGCTGCTAAGAAGCTTGCCACTCATGCCATTAAGCTTGGTGGTCTGGGCTTTGGCACTACATTTCTTGAGTGGTTGGCTTCTTTTGCTGCCATTTATTTATTAATCTTGGATCGAACAAACTGGAAGACAAACATCCTTACGGCACTTCTAATCCCTTACATTTTCTTTAGTCTTCCTTCAATATTATTCAACTTTTTCAGTGGTCAGGTTGGAAAATGGATTGCTTTTATTGCTGTAGTGCTGCGCCTCTTCTTCCCAAAACGTTTCCCAGATTGGCTGGAAATGCCTGCAGCTTTGATTCTTGTTATAGTGGTGGCTCCCAGCTTGTTTTCGAGCACTATAAGGGGTGACTGGATTGGCCTCGTAATATGTCTTGCAATTGGGTGTTATTTGCTGCAGGAACACATCAGGGCATCTGGTGGGTTCAGAAATTCCTTTACACAGAGGCATGGCATATCAAACTCTATTGGATTAATCCTTCTGCTGGTCTATCCTGTCTGGGCTCTGGTACTTCACTTCCTATAGGCACA</Hsp_qseq>
+      <Hsp_hseq>ATGGGGAGGATGAATTATTTGGCTATGAAAACTGATCCGGCAATGGATGATTTGATCGGCTCTGATATCAATGACCCCAAGATCGCTGCAAAGAAGCTCATCAATCATGCCACTAAGCTTGCTGGCCTCAGCTTTGGGACTTCTTTTCTGGAATGGGTGGCTTCCTTCGCAGCTATTTATTTGCTGATATTGGATCGAACCAACAGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCAGTGCTGTTCGATTTTTTCAGAGGAGAGGTTGGAAAATGGATTTCTTTCATTGCAGTTGTACTAAGGCTCTTCTTCCCGCGACGCTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCTTGGTTGTGGCTCCCAGCTTCTTTGCAGACACCTTGAAGGACAGCTGGGTTGGTATCTTGATATGCCTTATCATTGGTTGTTACCTACTGCAAGAGCACATTCGGGCAGCCGGAGGATTCAGAAATTCCTTCACTCAAACCCATGGCATATCCAACACCGTTGGCATTATCCTTCTGTTAGTTTATCCTGTCTGGGCGCTGGTTGTTTACTTTCTCTAGGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||  | |  ||| ||||| ||||  |||||  | |  |    |||||||||| | |||||| |||  ||||     |  ||||| ||||||||   || |||||||| |||||||| ||| ||  ||||||| ||| | ||||| || ||| ||||||| || || || ||||||||  | || ||||||||||| ||| |||  |||||||| || ||  ||||| || |||||||||| |||||||| ||||||||| |  | ||| | |||||||| ||  ||||||||||||||||| |||| ||||| || || ||  | |||||||||||   ||| ||||||||||||||||| ||||| | | ||||||||||| |  | || |||||||||||||| ||| |   |||  | | ||    |||| ||||  || | ||||| |||   ||||| |||||  | ||||| || |||||  ||||| | || || |||||||||||||| || || |  ||||||||||| ||| |  ||||  | ||||||||| | || |||||||||||||| |||||  || |||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>45389453</Statistics_db-num>
+      <Statistics_db-len>134334300</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
